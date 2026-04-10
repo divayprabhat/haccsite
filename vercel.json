@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm exec vite build",
   "installCommand": "npm install",
-  "framework": "vite",
-  "version": 3
+  "framework": "vite"
 }
