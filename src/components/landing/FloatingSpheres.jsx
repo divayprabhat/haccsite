@@ -1,6 +1,11 @@
 import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 
+// Mobile detection and performance settings
+const isMobile = () => {
+  return window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+}
+
 const SPHERES = [
   { size: 130, color: ['#a78bfa', '#8b5cf6'], x: 10, y: 15, speed: 0.28, floatAmp: 18, phaseX: 0.0, phaseY: 0.5, zIdx: 8, mouth: 'happy' },
   { size: 108, color: ['#fb923c', '#f97316'], x: 78, y: 8, speed: 0.22, floatAmp: 22, phaseX: 1.2, phaseY: 2.1, zIdx: 7, mouth: 'excited' },
@@ -189,8 +194,13 @@ export default function FloatingSpheres() {
     let W = window.innerWidth
     let H = window.innerHeight
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' })
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+    const mobile = isMobile()
+    const renderer = new THREE.WebGLRenderer({ 
+      antialias: !mobile, 
+      alpha: true, 
+      powerPreference: mobile ? 'low-power' : 'high-performance' 
+    })
+    renderer.setPixelRatio(mobile ? 1 : Math.min(window.devicePixelRatio, 2))
     renderer.setSize(W, H)
     renderer.setClearColor(0x000000, 0)
     renderer.outputColorSpace = THREE.SRGBColorSpace

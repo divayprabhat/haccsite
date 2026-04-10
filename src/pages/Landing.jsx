@@ -78,7 +78,7 @@ export default function Landing() {
       {/* ── Hero ────────────────────────────────────────────────── */}
       <section
         ref={heroRef}
-        className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center"
+        className="relative flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 text-center"
         style={{ zIndex: 10 }}
       >
         {/* Radial light */}
@@ -144,7 +144,7 @@ export default function Landing() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.85, delay: 0.35 }}
-            className="glass-liquid rounded-[36px] px-6 md:px-10 py-12 md:py-14 w-full"
+            className="glass-liquid rounded-[24px] sm:rounded-[36px] px-4 sm:px-6 md:px-10 py-8 sm:py-12 md:py-14 w-full"
           >
           <motion.h1
             style={{ y: titleY, scale: titleScale }}
@@ -172,7 +172,7 @@ export default function Landing() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.7 }}
-            className="text-[17px] text-ink-secondary max-w-xl leading-relaxed mb-10"
+            className="text-[15px] sm:text-[17px] text-ink-secondary max-w-xl leading-relaxed mb-8 sm:mb-10"
           >
             Chat, analyze pre-trained disaster models, or train your own. A single platform built for researchers, engineers, and analysts.
           </motion.p>
@@ -183,13 +183,13 @@ export default function Landing() {
             transition={{ duration: 0.6, delay: 0.85 }}
             className="flex items-center gap-3 flex-wrap justify-center"
           >
-            <Link to="/chat" className="btn-signal text-[15px] px-6 py-3">
+            <Link to="/chat" className="btn-signal text-[13px] sm:text-[15px] px-4 sm:px-6 py-2.5 sm:py-3">
               Start chatting
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </Link>
-            <Link to="/models" className="btn-ghost text-[14px] px-5 py-3">
+            <Link to="/models" className="btn-ghost text-[12px] sm:text-[14px] px-3 sm:px-5 py-2.5 sm:py-3">
               Explore models
             </Link>
           </motion.div>
@@ -199,8 +199,8 @@ export default function Landing() {
       </section>
 
       {/* ── Stats strip ─────────────────────────────────────────── */}
-      <section className="border-y border-border py-8 px-6" style={{ position: 'relative', zIndex: 10, background: 'rgba(255,255,255,0.74)' }}>
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      <section className="border-y border-border py-6 sm:py-8 px-4 sm:px-6" style={{ position: 'relative', zIndex: 10, background: 'rgba(255,255,255,0.74)' }}>
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
           {STATS.map((s, i) => (
             <motion.div
               key={i}
@@ -212,15 +212,15 @@ export default function Landing() {
               className="flex flex-col gap-1 rounded-2xl px-3 py-2 glass"
               style={{ transformPerspective: 700 }}
             >
-              <span className="text-[28px] font-bold tracking-tight" style={{ color: 'var(--signal)' }}>{s.value}</span>
-              <span className="text-mono text-ink-muted">{s.label}</span>
+              <span className="text-[20px] sm:text-[28px] font-bold tracking-tight" style={{ color: 'var(--signal)' }}>{s.value}</span>
+              <span className="text-mono text-xs sm:text-sm text-ink-muted">{s.label}</span>
             </motion.div>
           ))}
         </div>
       </section>
 
       {/* ── Section cards — Broadway card DNA ─────────────────── */}
-      <section className="px-6 py-28 max-w-5xl mx-auto" style={{ position: 'relative', zIndex: 10 }}>
+      <section className="px-4 sm:px-6 py-16 sm:py-28 max-w-5xl mx-auto" style={{ position: 'relative', zIndex: 10 }}>
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -236,7 +236,7 @@ export default function Landing() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
           {SECTIONS.map((sec, i) => (
             <SectionCard key={i} sec={sec} i={i} />
           ))}
@@ -244,8 +244,8 @@ export default function Landing() {
       </section>
 
       {/* ── How it works ────────────────────────────────────────── */}
-      <section className="px-6 pb-28 max-w-5xl mx-auto" style={{ position: 'relative', zIndex: 10 }}>
-        <div className="card p-8 md:p-12 overflow-hidden relative">
+      <section className="px-4 sm:px-6 pb-16 sm:pb-28 max-w-5xl mx-auto" style={{ position: 'relative', zIndex: 10 }}>
+        <div className="card p-6 sm:p-8 md:p-12 overflow-hidden relative">
           <div
             className="absolute inset-0 pointer-events-none"
             style={{

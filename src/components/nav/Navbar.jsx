@@ -23,10 +23,10 @@ export default function Navbar() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-      className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-7 px-4"
+      className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-4 sm:pt-7 px-2 sm:px-4"
     >
       <div
-        className={`glass-strong relative overflow-hidden flex items-center gap-1 px-3 py-2.5 rounded-2xl transition-all duration-500 ${
+        className={`glass-strong relative overflow-hidden flex items-center gap-1 px-2 sm:px-3 py-2 sm:py-2.5 rounded-2xl transition-all duration-500 max-w-[95vw] sm:max-w-none ${
           scrolled ? 'shadow-[0_10px_32px_rgba(15,23,42,0.18)]' : 'shadow-[0_4px_18px_rgba(15,23,42,0.08)]'
         }`}
       >
@@ -53,7 +53,7 @@ export default function Navbar() {
 
           <Link
             to="/"
-            className="relative z-10 flex items-center gap-2 px-3 py-1.5 mr-2"
+            className="relative z-10 flex items-center gap-2 px-2 sm:px-3 py-1.5 mr-1 sm:mr-2"
           >
             <div className="w-5 h-5 rounded-md bg-signal flex items-center justify-center">
               <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
@@ -72,7 +72,7 @@ export default function Navbar() {
               <Link
                 key={path}
                 to={path}
-                className="nav-gooey-btn relative z-10 px-4 py-1.5 text-sm font-medium rounded-xl transition-colors duration-150"
+                className="nav-gooey-btn relative z-10 px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-medium rounded-xl transition-colors duration-150"
                 style={{ color: active ? 'var(--ink-primary)' : 'var(--ink-muted)' }}
               >
                 {active && (
@@ -92,8 +92,8 @@ export default function Navbar() {
 
         <div className="relative z-10 h-4 w-px bg-border-strong mx-1 ml-2" />
 
-        <Link to="/auth" className="btn-signin-glass relative z-10 shrink-0" data-cursor="pointer">
-          <span className="btn-signin-glass-inner">Sign in</span>
+        <Link to="/auth" className="btn-signin-glass relative z-10 shrink-0 text-xs sm:text-sm" data-cursor="pointer">
+          <span className="btn-signin-glass-inner text-xs sm:text-xs">Sign in</span>
         </Link>
       </div>
     </motion.nav>

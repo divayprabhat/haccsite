@@ -48,6 +48,52 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Mobile-specific styles */
+  @media (max-width: 768px) {
+    body {
+      cursor: auto !important;
+    }
+    
+    * {
+      cursor: auto !important;
+    }
+    
+    #cursor-ring,
+    #cursor-dot,
+    .cursor-trail-dot {
+      display: none !important;
+    }
+
+    /* Better touch targets for mobile */
+    .btn-signal {
+      min-height: 44px;
+      padding: 12px 20px;
+    }
+
+    .btn-ghost {
+      min-height: 44px;
+      padding: 11px 18px;
+    }
+
+    .btn-signin-glass {
+      min-height: 44px;
+      padding: 6px;
+    }
+
+    /* Reduce motion on mobile for better performance */
+    .nav-gooey-blob {
+      display: none;
+    }
+
+    /* Optimize glass effects for mobile */
+    .glass,
+    .glass-strong,
+    .glass-liquid {
+      backdrop-filter: blur(12px) saturate(1.1);
+      -webkit-backdrop-filter: blur(12px) saturate(1.1);
+    }
+  }
+
   ::selection {
     background: var(--signal-dim);
     color: #082f49;
