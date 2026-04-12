@@ -2,97 +2,3424 @@
   "edges": {
     "gdp_decrease": {
       "unemployment_increase": {
-        "strength": 1.0,
+        "strength": 0.625,
         "polarity": -1,
-        "count": 3
+        "count": 5
+      },
+      "tax_revenue_decrease": {
+        "strength": 0.125,
+        "polarity": 1,
+        "count": 1
+      },
+      "government_deficit_increase": {
+        "strength": 0.125,
+        "polarity": -1,
+        "count": 1
+      },
+      "business_revenue_decrease": {
+        "strength": 0.125,
+        "polarity": 1,
+        "count": 1
       }
     },
     "consumer_spending_decrease": {
       "business_revenue_decrease": {
-        "strength": 1.0,
+        "strength": 0.5,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "retail_employment_decrease": {
+        "strength": 0.1,
+        "polarity": 1,
+        "count": 1
+      },
+      "inventory_surplus_increase": {
+        "strength": 0.1,
+        "polarity": -1,
+        "count": 1
+      },
+      "service_sector_contraction_increase": {
+        "strength": 0.1,
+        "polarity": -1,
+        "count": 1
+      },
+      "corporate_profit_decrease": {
+        "strength": 0.1,
+        "polarity": 1,
+        "count": 1
+      },
+      "gdp_decrease": {
+        "strength": 0.1,
+        "polarity": 1,
+        "count": 1
       }
     },
     "credit_availability_decrease": {
       "investment_decrease": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "inflation_increase": {
       "purchasing_power_decrease": {
-        "strength": 1.0,
+        "strength": 0.7142857142857143,
         "polarity": -1,
-        "count": 3
+        "count": 5
+      },
+      "real_wage_decrease": {
+        "strength": 0.14285714285714285,
+        "polarity": -1,
+        "count": 1
+      },
+      "interest_rate_increase": {
+        "strength": 0.14285714285714285,
+        "polarity": 1,
+        "count": 1
       }
     },
     "interest_rate_increase": {
       "mortgage_default_increase": {
-        "strength": 1.0,
+        "strength": 0.45454545454545453,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "housing_affordability_decrease": {
+        "strength": 0.09090909090909091,
+        "polarity": -1,
+        "count": 1
+      },
+      "business_investment_decrease": {
+        "strength": 0.09090909090909091,
+        "polarity": -1,
+        "count": 1
+      },
+      "car_loan_affordability_decrease": {
+        "strength": 0.09090909090909091,
+        "polarity": -1,
+        "count": 1
+      },
+      "bond_price_decrease": {
+        "strength": 0.09090909090909091,
+        "polarity": -1,
+        "count": 1
+      },
+      "currency_appreciation_increase": {
+        "strength": 0.09090909090909091,
+        "polarity": 1,
+        "count": 1
+      },
+      "savings_return_increase": {
+        "strength": 0.09090909090909091,
+        "polarity": 1,
+        "count": 1
       }
     },
     "business_revenue_decrease": {
       "employment_levels_decrease": {
-        "strength": 1.0,
+        "strength": 0.8333333333333334,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "layoff_rate_increase": {
+        "strength": 0.16666666666666666,
+        "polarity": -1,
+        "count": 1
       }
     },
     "manufacturing_output_decrease": {
       "export_revenue_decrease": {
-        "strength": 1.0,
+        "strength": 0.8333333333333334,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "industrial_employment_decrease": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
       }
     },
     "stock_market_decrease": {
       "consumer_confidence_decrease": {
-        "strength": 1.0,
+        "strength": 0.5555555555555556,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "pension_fund_value_decrease": {
+        "strength": 0.1111111111111111,
+        "polarity": 1,
+        "count": 1
+      },
+      "household_net_worth_decrease": {
+        "strength": 0.1111111111111111,
+        "polarity": 1,
+        "count": 1
+      },
+      "ipo_activity_decrease": {
+        "strength": 0.1111111111111111,
+        "polarity": 1,
+        "count": 1
+      },
+      "corporate_fundraising_difficulty_increase": {
+        "strength": 0.1111111111111111,
+        "polarity": -1,
+        "count": 1
       }
     },
     "bank_lending_decrease": {
       "small_business_growth_decrease": {
-        "strength": 1.0,
+        "strength": 0.8333333333333334,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "gdp_growth_decrease": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
       }
     },
     "government_spending_decrease": {
       "public_service_quality_decrease": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      }
+    },
+    "gdp_increase": {
+      "unemployment_decrease": {
+        "strength": 0.25,
+        "polarity": -1,
+        "count": 1
+      },
+      "tax_revenue_increase": {
+        "strength": 0.25,
+        "polarity": 1,
+        "count": 1
+      },
+      "government_deficit_decrease": {
+        "strength": 0.25,
+        "polarity": -1,
+        "count": 1
+      },
+      "business_revenue_increase": {
+        "strength": 0.25,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "gdp_per_capita_decrease": {
+      "living_standard_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "gdp_per_capita_increase": {
+      "living_standard_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "gdp_volatility_increase": {
+      "investor_uncertainty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "gdp_volatility_decrease": {
+      "investor_uncertainty_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "consumer_spending_increase": {
+      "business_revenue_increase": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
+      },
+      "retail_employment_increase": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
+      },
+      "inventory_surplus_decrease": {
+        "strength": 0.16666666666666666,
+        "polarity": -1,
+        "count": 1
+      },
+      "service_sector_contraction_decrease": {
+        "strength": 0.16666666666666666,
+        "polarity": -1,
+        "count": 1
+      },
+      "corporate_profit_increase": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
+      },
+      "gdp_increase": {
+        "strength": 0.16666666666666666,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "consumer_confidence_decrease": {
+      "consumer_spending_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "consumer_confidence_increase": {
+      "consumer_spending_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "consumer_debt_increase": {
+      "discretionary_spending_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "consumer_debt_decrease": {
+      "discretionary_spending_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "consumer_saving_rate_increase": {
+      "consumption_growth_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "consumer_saving_rate_decrease": {
+      "consumption_growth_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "credit_availability_increase": {
+      "investment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "bank_lending_increase": {
+      "small_business_growth_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "gdp_growth_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_tightening_increase": {
+      "startup_formation_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "credit_tightening_decrease": {
+      "startup_formation_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "loan_default_rate_increase": {
+      "bank_balance_sheet_deterioration_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "loan_default_rate_decrease": {
+      "bank_balance_sheet_deterioration_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_spread_increase": {
+      "borrowing_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_spread_decrease": {
+      "borrowing_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "interbank_lending_freeze_increase": {
+      "financial_system_stress_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "interbank_lending_freeze_decrease": {
+      "financial_system_stress_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "mortgage_approval_rate_decrease": {
+      "housing_market_activity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "mortgage_approval_rate_increase": {
+      "housing_market_activity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "subprime_lending_increase": {
+      "systemic_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "subprime_lending_decrease": {
+      "systemic_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_decrease": {
+      "purchasing_power_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "real_wage_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "interest_rate_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_uncertainty_increase": {
+      "business_planning_difficulty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_uncertainty_decrease": {
+      "business_planning_difficulty_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "hyperinflation_increase": {
+      "currency_value_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "hyperinflation_decrease": {
+      "currency_value_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "core_inflation_increase": {
+      "central_bank_tightening_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "core_inflation_decrease": {
+      "central_bank_tightening_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_inflation_increase": {
+      "production_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_inflation_decrease": {
+      "production_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "energy_price_inflation_increase": {
+      "transportation_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "energy_price_inflation_decrease": {
+      "transportation_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "food_price_inflation_increase": {
+      "household_budget_stress_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "food_price_inflation_decrease": {
+      "household_budget_stress_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "asset_price_inflation_increase": {
+      "wealth_inequality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "asset_price_inflation_decrease": {
+      "wealth_inequality_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "interest_rate_decrease": {
+      "mortgage_default_decrease": {
+        "strength": 0.14285714285714285,
+        "polarity": 1,
+        "count": 1
+      },
+      "housing_affordability_increase": {
+        "strength": 0.14285714285714285,
+        "polarity": -1,
+        "count": 1
+      },
+      "business_investment_increase": {
+        "strength": 0.14285714285714285,
+        "polarity": -1,
+        "count": 1
+      },
+      "car_loan_affordability_increase": {
+        "strength": 0.14285714285714285,
+        "polarity": -1,
+        "count": 1
+      },
+      "bond_price_increase": {
+        "strength": 0.14285714285714285,
+        "polarity": -1,
+        "count": 1
+      },
+      "currency_appreciation_decrease": {
+        "strength": 0.14285714285714285,
+        "polarity": 1,
+        "count": 1
+      },
+      "savings_return_decrease": {
+        "strength": 0.14285714285714285,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "low_interest_rate_environment_increase": {
+      "asset_bubble_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "low_interest_rate_environment_decrease": {
+      "asset_bubble_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "negative_interest_rate_increase": {
+      "bank_profitability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "negative_interest_rate_decrease": {
+      "bank_profitability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "unemployment_increase": {
+      "consumer_spending_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "government_welfare_expenditure_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      },
+      "tax_base_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "unemployment_decrease": {
+      "consumer_spending_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "government_welfare_expenditure_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      },
+      "tax_base_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "long_term_unemployment_increase": {
+      "skill_atrophy_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "long_term_unemployment_decrease": {
+      "skill_atrophy_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "youth_unemployment_increase": {
+      "social_instability_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "youth_unemployment_decrease": {
+      "social_instability_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "structural_unemployment_increase": {
+      "productivity_growth_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "structural_unemployment_decrease": {
+      "productivity_growth_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "unemployment_benefit_exhaustion_increase": {
+      "poverty_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "unemployment_benefit_exhaustion_decrease": {
+      "poverty_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "mass_layoff_event_increase": {
+      "local_economic_activity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "mass_layoff_event_decrease": {
+      "local_economic_activity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "unemployment_rate_increase": {
+      "mental_health_burden_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "unemployment_rate_decrease": {
+      "mental_health_burden_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "wage_pressure_increase": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "stock_market_increase": {
+      "consumer_confidence_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "pension_fund_value_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "household_net_worth_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "ipo_activity_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "corporate_fundraising_difficulty_decrease": {
+        "strength": 0.2,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "stock_market_crash_increase": {
+      "credit_contraction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "stock_market_crash_decrease": {
+      "credit_contraction_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "equity_market_volatility_increase": {
+      "investment_risk_aversion_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "equity_market_volatility_decrease": {
+      "investment_risk_aversion_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "margin_call_frequency_increase": {
+      "forced_selling_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "margin_call_frequency_decrease": {
+      "forced_selling_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_revenue_increase": {
+      "employment_levels_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "hiring_rate_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_investment_decrease": {
+      "productivity_growth_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_investment_increase": {
+      "productivity_growth_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_failure_rate_increase": {
+      "job_destruction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_failure_rate_decrease": {
+      "job_destruction_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_expenditure_decrease": {
+      "long_term_capacity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_expenditure_increase": {
+      "long_term_capacity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "profit_margin_decrease": {
+      "dividend_payment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "profit_margin_increase": {
+      "dividend_payment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "corporate_debt_increase": {
+      "financial_fragility_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "corporate_debt_decrease": {
+      "financial_fragility_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "merger_activity_decrease": {
+      "market_consolidation_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "merger_activity_increase": {
+      "market_consolidation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_confidence_decrease": {
+      "hiring_freeze_increase": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      },
+      "capital_expenditure_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "business_confidence_increase": {
+      "hiring_freeze_decrease": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      },
+      "capital_expenditure_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "d_spending_decrease": {
+      "innovation_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "d_spending_increase": {
+      "innovation_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "foreign_direct_investment_decrease": {
+      "capital_formation_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "foreign_direct_investment_increase": {
+      "capital_formation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "manufacturing_output_increase": {
+      "export_revenue_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "industrial_employment_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "trade_deficit_increase": {
+      "currency_depreciation_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "trade_deficit_decrease": {
+      "currency_depreciation_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "export_demand_decrease": {
+      "factory_utilization_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "export_demand_increase": {
+      "factory_utilization_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "supply_chain_disruption_increase": {
+      "production_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "supply_chain_disruption_decrease": {
+      "production_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "tariff_increase": {
+      "import_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "tariff_decrease": {
+      "import_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "import_cost_increase": {
+      "domestic_price_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "import_cost_decrease": {
+      "domestic_price_level_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "trade_war_intensity_increase": {
+      "global_trade_volume_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "trade_war_intensity_decrease": {
+      "global_trade_volume_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "export_competitiveness_decrease": {
+      "trade_surplus_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "export_competitiveness_increase": {
+      "trade_surplus_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "manufacturing_capacity_utilization_decrease": {
+      "capital_investment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "manufacturing_capacity_utilization_increase": {
+      "capital_investment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "government_spending_increase": {
+      "public_service_quality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "fiscal_stimulus_increase": {
+      "aggregate_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "fiscal_stimulus_decrease": {
+      "aggregate_demand_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "government_debt_increase": {
+      "sovereign_risk_premium_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "government_debt_decrease": {
+      "sovereign_risk_premium_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "tax_revenue_decrease": {
+      "budget_deficit_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "tax_revenue_increase": {
+      "budget_deficit_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "austerity_measure_increase": {
+      "public_investment_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "austerity_measure_decrease": {
+      "public_investment_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "automatic_stabilizer_activation_increase": {
+      "recession_depth_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "automatic_stabilizer_activation_decrease": {
+      "recession_depth_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "infrastructure_spending_increase": {
+      "long_run_productivity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "infrastructure_spending_decrease": {
+      "long_run_productivity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "social_safety_net_spending_increase": {
+      "poverty_severity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "social_safety_net_spending_decrease": {
+      "poverty_severity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "corporate_tax_rate_increase": {
+      "after_tax_profit_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "corporate_tax_rate_decrease": {
+      "after_tax_profit_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "income_tax_increase": {
+      "disposable_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "income_tax_decrease": {
+      "disposable_income_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "central_bank_rate_increase": {
+      "loan_growth_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "central_bank_rate_decrease": {
+      "loan_growth_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "quantitative_easing_increase": {
+      "asset_price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "quantitative_easing_decrease": {
+      "asset_price_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "money_supply_increase": {
+      "inflation_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "money_supply_decrease": {
+      "inflation_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "reserve_requirement_increase": {
+      "bank_lending_capacity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "reserve_requirement_decrease": {
+      "bank_lending_capacity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "forward_guidance_clarity_increase": {
+      "market_uncertainty_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "forward_guidance_clarity_decrease": {
+      "market_uncertainty_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "central_bank_credibility_increase": {
+      "inflation_expectation_stability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "central_bank_credibility_decrease": {
+      "inflation_expectation_stability_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "yield_curve_inversion_increase": {
+      "recession_probability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "yield_curve_inversion_decrease": {
+      "recession_probability_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "housing_price_decrease": {
+      "household_wealth_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "construction_activity_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "housing_price_increase": {
+      "household_wealth_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "construction_activity_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "foreclosure_rate_increase": {
+      "neighborhood_property_value_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "foreclosure_rate_decrease": {
+      "neighborhood_property_value_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "housing_starts_decrease": {
+      "construction_employment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "housing_starts_increase": {
+      "construction_employment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "home_equity_decrease": {
+      "home_equity_loan_availability_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "home_equity_increase": {
+      "home_equity_loan_availability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "rental_vacancy_rate_increase": {
+      "rental_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "rental_vacancy_rate_decrease": {
+      "rental_income_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "housing_supply_shortage_increase": {
+      "affordability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "housing_supply_shortage_decrease": {
+      "affordability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "real_estate_speculation_increase": {
+      "price_bubble_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "real_estate_speculation_decrease": {
+      "price_bubble_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "bank_capital_ratio_decrease": {
+      "systemic_fragility_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "bank_capital_ratio_increase": {
+      "systemic_fragility_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "non_performing_loan_ratio_increase": {
+      "bank_profitability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "non_performing_loan_ratio_decrease": {
+      "bank_profitability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "bank_run_probability_increase": {
+      "financial_panic_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "bank_run_probability_decrease": {
+      "financial_panic_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "shadow_banking_growth_increase": {
+      "regulatory_oversight_gap_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "shadow_banking_growth_decrease": {
+      "regulatory_oversight_gap_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_leverage_increase": {
+      "asset_price_volatility_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_leverage_decrease": {
+      "asset_price_volatility_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "deposit_guarantee_coverage_increase": {
+      "bank_run_risk_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "deposit_guarantee_coverage_decrease": {
+      "bank_run_risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "banking_sector_concentration_increase": {
+      "systemic_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "banking_sector_concentration_decrease": {
+      "systemic_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_regulation_strength_increase": {
+      "risk_taking_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "financial_regulation_strength_decrease": {
+      "risk_taking_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "currency_depreciation_increase": {
+      "import_cost_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "export_price_competitiveness_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "currency_depreciation_decrease": {
+      "import_cost_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "export_price_competitiveness_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "exchange_rate_volatility_increase": {
+      "trade_uncertainty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "exchange_rate_volatility_decrease": {
+      "trade_uncertainty_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_flight_increase": {
+      "currency_depreciation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_flight_decrease": {
+      "currency_depreciation_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "foreign_exchange_reserve_decrease": {
+      "currency_defense_capacity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "foreign_exchange_reserve_increase": {
+      "currency_defense_capacity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "current_account_deficit_increase": {
+      "external_borrowing_need_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "current_account_deficit_decrease": {
+      "external_borrowing_need_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_growth_increase": {
+      "household_income_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "consumer_confidence_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_growth_decrease": {
+      "household_income_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "labor_force_participation_decrease": {
+      "potential_output_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "labor_force_participation_increase": {
+      "potential_output_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "minimum_wage_increase": {
+      "low_income_purchasing_power_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "minimum_wage_decrease": {
+      "low_income_purchasing_power_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "gig_economy_growth_increase": {
+      "worker_income_stability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "gig_economy_growth_decrease": {
+      "worker_income_stability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "labor_productivity_increase": {
+      "unit_labor_cost_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "labor_productivity_decrease": {
+      "unit_labor_cost_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "skills_mismatch_increase": {
+      "structural_unemployment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "skills_mismatch_decrease": {
+      "structural_unemployment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "union_bargaining_power_increase": {
+      "gdp_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "union_bargaining_power_decrease": {
+      "gdp_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "automation_adoption_increase": {
+      "routine_job_displacement_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "automation_adoption_decrease": {
+      "routine_job_displacement_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "worker_retraining_investment_increase": {
+      "structural_unemployment_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "worker_retraining_investment_decrease": {
+      "structural_unemployment_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "income_inequality_increase": {
+      "social_mobility_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "income_inequality_decrease": {
+      "social_mobility_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "poverty_rate_increase": {
+      "healthcare_cost_burden_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "poverty_rate_decrease": {
+      "healthcare_cost_burden_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wealth_concentration_increase": {
+      "political_influence_inequality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wealth_concentration_decrease": {
+      "political_influence_inequality_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_stagnation_increase": {
+      "household_debt_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_stagnation_decrease": {
+      "household_debt_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "educational_inequality_increase": {
+      "intergenerational_poverty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "educational_inequality_decrease": {
+      "intergenerational_poverty_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "social_safety_net_adequacy_decrease": {
+      "poverty_trap_intensity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "social_safety_net_adequacy_increase": {
+      "poverty_trap_intensity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "global_recession_depth_increase": {
+      "emerging_market_stress_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "global_recession_depth_decrease": {
+      "emerging_market_stress_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_contagion_spread_increase": {
+      "cross_border_credit_contraction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_contagion_spread_decrease": {
+      "cross_border_credit_contraction_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "commodity_price_decrease": {
+      "resource_exporter_gdp_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      },
+      "resource_exporter_gdp_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "raw_material_cost_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "global_trade_volume_decrease": {
+      "port_activity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "global_trade_volume_increase": {
+      "port_activity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "geopolitical_risk_increase": {
+      "foreign_investment_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "geopolitical_risk_decrease": {
+      "foreign_investment_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "global_supply_chain_fragility_increase": {
+      "inflation_pass_through_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "global_supply_chain_fragility_decrease": {
+      "inflation_pass_through_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "developed_economy_recession_increase": {
+      "developing_countries_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "developed_economy_recession_decrease": {
+      "developing_countries_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "inflation_expectation_increase": {
+      "wage_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_expectation_decrease": {
+      "wage_demand_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "recession_expectation_increase": {
+      "precautionary_saving_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "recession_expectation_decrease": {
+      "precautionary_saving_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "policy_uncertainty_increase": {
+      "investment_delay_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "policy_uncertainty_decrease": {
+      "investment_delay_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "market_sentiment_deterioration_increase": {
+      "risk_asset_selloff_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "market_sentiment_deterioration_decrease": {
+      "risk_asset_selloff_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "economic_optimism_increase": {
+      "forward_investment_commitment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "economic_optimism_decrease": {
+      "forward_investment_commitment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "total_factor_productivity_decrease": {
+      "potential_gdp_growth_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "total_factor_productivity_increase": {
+      "potential_gdp_growth_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "technology_adoption_rate_increase": {
+      "output_per_worker_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "technology_adoption_rate_decrease": {
+      "output_per_worker_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "human_capital_investment_increase": {
+      "long_run_earnings_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "human_capital_investment_decrease": {
+      "long_run_earnings_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "regulatory_burden_increase": {
+      "compliance_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "regulatory_burden_decrease": {
+      "compliance_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "competition_intensity_increase": {
+      "price_markup_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "competition_intensity_decrease": {
+      "price_markup_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "infrastructure_quality_decrease": {
+      "logistics_cost_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "infrastructure_quality_increase": {
+      "logistics_cost_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "energy_cost_increase": {
+      "industrial_production_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "energy_cost_decrease": {
+      "industrial_production_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "commercial_real_estate_vacancy_increase": {
+      "rental_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "commercial_real_estate_vacancy_decrease": {
+      "rental_income_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "construction_cost_increase": {
+      "new_housing_supply_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "construction_cost_decrease": {
+      "new_housing_supply_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "property_tax_revenue_decrease": {
+      "municipal_service_quality_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "property_tax_revenue_increase": {
+      "municipal_service_quality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "real_estate_price_crash_increase": {
+      "bank_collateral_value_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "real_estate_price_crash_decrease": {
+      "bank_collateral_value_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "oil_price_increase": {
+      "transportation_cost_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "energy_import_bill_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "oil_price_decrease": {
+      "transportation_cost_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "energy_import_bill_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "commodity_price_increase": {
+      "raw_material_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "energy_price_volatility_increase": {
+      "business_planning_uncertainty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "energy_price_volatility_decrease": {
+      "business_planning_uncertainty_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "renewable_energy_cost_decrease": {
+      "fossil_fuel_dependency_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "renewable_energy_cost_increase": {
+      "fossil_fuel_dependency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "income_ratio_increase": {
+      "financial_vulnerability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "income_ratio_decrease": {
+      "financial_vulnerability_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "sovereign_debt_crisis_increase": {
+      "government_borrowing_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "sovereign_debt_crisis_decrease": {
+      "government_borrowing_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "debt_deleveraging_increase": {
+      "asset_price_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "debt_deleveraging_decrease": {
+      "asset_price_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "debt_monetization_increase": {
+      "inflation_expectation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "debt_monetization_decrease": {
+      "inflation_expectation_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "corporate_leverage_increase": {
+      "earnings_volatility_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "corporate_leverage_decrease": {
+      "earnings_volatility_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "student_debt_burden_increase": {
+      "household_formation_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "student_debt_burden_decrease": {
+      "household_formation_rate_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "credit_crunch_severity_increase": {
+      "small_business_closure_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_crunch_severity_decrease": {
+      "small_business_closure_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "loan_loss_provision_increase": {
+      "bank_profit_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "loan_loss_provision_decrease": {
+      "bank_profit_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "bank_profit_decrease": {
+      "dividend_cut_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "bank_profit_increase": {
+      "dividend_cut_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "interbank_rate_increase": {
+      "lending_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "interbank_rate_decrease": {
+      "lending_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "liquidity_trap_severity_increase": {
+      "monetary_policy_effectiveness_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "liquidity_trap_severity_decrease": {
+      "monetary_policy_effectiveness_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "layoff_rate_increase": {
+      "household_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "household_income_decrease": {
+      "consumer_spending_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "hiring_rate_increase": {
+      "household_income_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "household_income_increase": {
+      "consumer_spending_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "monetary_easing_increase": {
+      "borrowing_cost_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "borrowing_cost_decrease": {
+      "investment_activity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "investment_activity_increase": {
+      "employment_growth_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "employment_growth_increase": {
+      "wage_growth_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "fiscal_expansion_increase": {
+      "aggregate_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "aggregate_demand_increase": {
+      "output_gap_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "output_gap_decrease": {
+      "unemployment_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "wage_pressure_increase": {
+      "inflation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "asset_price_bubble_increase": {
+      "systemic_leverage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "asset_price_bubble_decrease": {
+      "systemic_leverage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "systemic_leverage_increase": {
+      "crash_severity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "systemic_leverage_decrease": {
+      "crash_severity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "crash_severity_increase": {
+      "credit_freeze_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "crash_severity_decrease": {
+      "credit_freeze_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_freeze_increase": {
+      "real_economy_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "credit_freeze_decrease": {
+      "real_economy_damage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "bank_bailout_cost_increase": {
+      "public_debt_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "bank_bailout_cost_decrease": {
+      "public_debt_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_crisis_severity_increase": {
+      "long_run_gdp_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "financial_crisis_severity_decrease": {
+      "long_run_gdp_loss_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "post_crisis_deleveraging_increase": {
+      "credit_growth_slowdown_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "post_crisis_deleveraging_decrease": {
+      "credit_growth_slowdown_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "demographic_aging_increase": {
+      "pension_expenditure_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "labor_supply_decrease": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "demographic_aging_decrease": {
+      "pension_expenditure_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "labor_supply_increase": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "urbanization_rate_increase": {
+      "agglomeration_productivity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "urbanization_rate_decrease": {
+      "agglomeration_productivity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "institutional_quality_increase": {
+      "transaction_cost_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "institutional_quality_decrease": {
+      "transaction_cost_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "property_rights_security_increase": {
+      "long_term_investment_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "property_rights_security_decrease": {
+      "long_term_investment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "law_strength_increase": {
+      "contract_enforcement_reliability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "law_strength_decrease": {
+      "contract_enforcement_reliability_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "automotive_sector_contraction_increase": {
+      "steel_demand_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "automotive_sector_contraction_decrease": {
+      "steel_demand_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "technology_sector_downturn_increase": {
+      "venture_capital_activity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "technology_sector_downturn_decrease": {
+      "venture_capital_activity_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "retail_closure_rate_increase": {
+      "commercial_rent_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "retail_closure_rate_decrease": {
+      "commercial_rent_income_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "airline_sector_stress_increase": {
+      "tourism_revenue_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "airline_sector_stress_decrease": {
+      "tourism_revenue_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "agriculture_productivity_decrease": {
+      "food_import_dependency_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "agriculture_productivity_increase": {
+      "food_import_dependency_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "capital_inflow_increase": {
+      "domestic_investment_capacity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_inflow_decrease": {
+      "domestic_investment_capacity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "capital_outflow_increase": {
+      "domestic_credit_availability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "capital_outflow_decrease": {
+      "domestic_credit_availability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "hot_money_inflow_increase": {
+      "currency_overvaluation_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "hot_money_inflow_decrease": {
+      "currency_overvaluation_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "remittance_inflow_increase": {
+      "household_consumption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "remittance_inflow_decrease": {
+      "household_consumption_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "sovereign_wealth_fund_withdrawal_increase": {
+      "domestic_asset_support_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "sovereign_wealth_fund_withdrawal_decrease": {
+      "domestic_asset_support_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
       }
     }
   },
   "word_freq": {
-    "gdp_decrease": 3,
-    "unemployment_increase": 3,
-    "consumer_spending_decrease": 3,
-    "business_revenue_decrease": 6,
-    "credit_availability_decrease": 3,
-    "investment_decrease": 3,
-    "inflation_increase": 3,
-    "purchasing_power_decrease": 3,
-    "interest_rate_increase": 3,
-    "mortgage_default_increase": 3,
-    "employment_levels_decrease": 3,
-    "manufacturing_output_decrease": 3,
-    "export_revenue_decrease": 3,
-    "stock_market_decrease": 3,
-    "consumer_confidence_decrease": 3,
-    "bank_lending_decrease": 3,
-    "small_business_growth_decrease": 3,
-    "government_spending_decrease": 3,
-    "public_service_quality_decrease": 3
+    "gdp_decrease": 10,
+    "unemployment_increase": 8,
+    "consumer_spending_decrease": 13,
+    "business_revenue_decrease": 12,
+    "credit_availability_decrease": 5,
+    "investment_decrease": 5,
+    "inflation_increase": 8,
+    "purchasing_power_decrease": 5,
+    "interest_rate_increase": 12,
+    "mortgage_default_increase": 5,
+    "employment_levels_decrease": 5,
+    "manufacturing_output_decrease": 6,
+    "export_revenue_decrease": 5,
+    "stock_market_decrease": 9,
+    "consumer_confidence_decrease": 6,
+    "bank_lending_decrease": 6,
+    "small_business_growth_decrease": 5,
+    "government_spending_decrease": 5,
+    "public_service_quality_decrease": 5,
+    "gdp_increase": 6,
+    "unemployment_decrease": 4,
+    "tax_revenue_decrease": 2,
+    "tax_revenue_increase": 2,
+    "government_deficit_increase": 1,
+    "government_deficit_decrease": 1,
+    "gdp_per_capita_decrease": 1,
+    "living_standard_decrease": 1,
+    "gdp_per_capita_increase": 1,
+    "living_standard_increase": 1,
+    "gdp_volatility_increase": 1,
+    "investor_uncertainty_increase": 1,
+    "gdp_volatility_decrease": 1,
+    "investor_uncertainty_decrease": 1,
+    "consumer_spending_increase": 9,
+    "business_revenue_increase": 4,
+    "retail_employment_decrease": 1,
+    "retail_employment_increase": 1,
+    "inventory_surplus_increase": 1,
+    "inventory_surplus_decrease": 1,
+    "service_sector_contraction_increase": 1,
+    "service_sector_contraction_decrease": 1,
+    "corporate_profit_decrease": 1,
+    "corporate_profit_increase": 1,
+    "consumer_confidence_increase": 3,
+    "consumer_debt_increase": 1,
+    "discretionary_spending_decrease": 1,
+    "consumer_debt_decrease": 1,
+    "discretionary_spending_increase": 1,
+    "consumer_saving_rate_increase": 1,
+    "consumption_growth_decrease": 1,
+    "consumer_saving_rate_decrease": 1,
+    "consumption_growth_increase": 1,
+    "credit_availability_increase": 1,
+    "investment_increase": 1,
+    "bank_lending_increase": 2,
+    "small_business_growth_increase": 1,
+    "credit_tightening_increase": 1,
+    "startup_formation_decrease": 1,
+    "credit_tightening_decrease": 1,
+    "startup_formation_increase": 1,
+    "loan_default_rate_increase": 1,
+    "bank_balance_sheet_deterioration_increase": 1,
+    "loan_default_rate_decrease": 1,
+    "bank_balance_sheet_deterioration_decrease": 1,
+    "credit_spread_increase": 1,
+    "borrowing_cost_increase": 1,
+    "credit_spread_decrease": 1,
+    "borrowing_cost_decrease": 3,
+    "interbank_lending_freeze_increase": 1,
+    "financial_system_stress_increase": 1,
+    "interbank_lending_freeze_decrease": 1,
+    "financial_system_stress_decrease": 1,
+    "mortgage_approval_rate_decrease": 1,
+    "housing_market_activity_decrease": 1,
+    "mortgage_approval_rate_increase": 1,
+    "housing_market_activity_increase": 1,
+    "subprime_lending_increase": 1,
+    "systemic_risk_increase": 2,
+    "subprime_lending_decrease": 1,
+    "systemic_risk_decrease": 2,
+    "inflation_decrease": 3,
+    "purchasing_power_increase": 1,
+    "real_wage_decrease": 1,
+    "real_wage_increase": 1,
+    "interest_rate_decrease": 8,
+    "inflation_uncertainty_increase": 1,
+    "business_planning_difficulty_increase": 1,
+    "inflation_uncertainty_decrease": 1,
+    "business_planning_difficulty_decrease": 1,
+    "hyperinflation_increase": 1,
+    "currency_value_decrease": 1,
+    "hyperinflation_decrease": 1,
+    "currency_value_increase": 1,
+    "core_inflation_increase": 1,
+    "central_bank_tightening_increase": 1,
+    "core_inflation_decrease": 1,
+    "central_bank_tightening_decrease": 1,
+    "wage_inflation_increase": 1,
+    "production_cost_increase": 2,
+    "wage_inflation_decrease": 1,
+    "production_cost_decrease": 2,
+    "energy_price_inflation_increase": 1,
+    "transportation_cost_increase": 2,
+    "energy_price_inflation_decrease": 1,
+    "transportation_cost_decrease": 2,
+    "food_price_inflation_increase": 1,
+    "household_budget_stress_increase": 1,
+    "food_price_inflation_decrease": 1,
+    "household_budget_stress_decrease": 1,
+    "asset_price_inflation_increase": 1,
+    "wealth_inequality_increase": 1,
+    "asset_price_inflation_decrease": 1,
+    "wealth_inequality_decrease": 1,
+    "mortgage_default_decrease": 1,
+    "housing_affordability_decrease": 1,
+    "housing_affordability_increase": 1,
+    "business_investment_decrease": 2,
+    "business_investment_increase": 2,
+    "car_loan_affordability_decrease": 1,
+    "car_loan_affordability_increase": 1,
+    "bond_price_decrease": 1,
+    "bond_price_increase": 1,
+    "currency_appreciation_increase": 1,
+    "currency_appreciation_decrease": 1,
+    "low_interest_rate_environment_increase": 1,
+    "asset_bubble_risk_increase": 1,
+    "low_interest_rate_environment_decrease": 1,
+    "asset_bubble_risk_decrease": 1,
+    "savings_return_increase": 1,
+    "savings_return_decrease": 1,
+    "negative_interest_rate_increase": 1,
+    "bank_profitability_decrease": 2,
+    "negative_interest_rate_decrease": 1,
+    "bank_profitability_increase": 2,
+    "government_welfare_expenditure_increase": 1,
+    "government_welfare_expenditure_decrease": 1,
+    "tax_base_decrease": 1,
+    "tax_base_increase": 1,
+    "long_term_unemployment_increase": 1,
+    "skill_atrophy_increase": 1,
+    "long_term_unemployment_decrease": 1,
+    "skill_atrophy_decrease": 1,
+    "youth_unemployment_increase": 1,
+    "social_instability_risk_increase": 1,
+    "youth_unemployment_decrease": 1,
+    "social_instability_risk_decrease": 1,
+    "structural_unemployment_increase": 3,
+    "productivity_growth_decrease": 2,
+    "structural_unemployment_decrease": 3,
+    "productivity_growth_increase": 2,
+    "unemployment_benefit_exhaustion_increase": 1,
+    "poverty_rate_increase": 2,
+    "unemployment_benefit_exhaustion_decrease": 1,
+    "poverty_rate_decrease": 2,
+    "mass_layoff_event_increase": 1,
+    "local_economic_activity_decrease": 1,
+    "mass_layoff_event_decrease": 1,
+    "local_economic_activity_increase": 1,
+    "unemployment_rate_increase": 1,
+    "mental_health_burden_increase": 1,
+    "unemployment_rate_decrease": 3,
+    "mental_health_burden_decrease": 1,
+    "stock_market_increase": 5,
+    "pension_fund_value_decrease": 1,
+    "pension_fund_value_increase": 1,
+    "stock_market_crash_increase": 1,
+    "credit_contraction_increase": 1,
+    "stock_market_crash_decrease": 1,
+    "credit_contraction_decrease": 1,
+    "equity_market_volatility_increase": 1,
+    "investment_risk_aversion_increase": 1,
+    "equity_market_volatility_decrease": 1,
+    "investment_risk_aversion_decrease": 1,
+    "household_net_worth_decrease": 1,
+    "household_net_worth_increase": 1,
+    "ipo_activity_decrease": 1,
+    "ipo_activity_increase": 1,
+    "margin_call_frequency_increase": 1,
+    "forced_selling_increase": 1,
+    "margin_call_frequency_decrease": 1,
+    "forced_selling_decrease": 1,
+    "corporate_fundraising_difficulty_increase": 1,
+    "corporate_fundraising_difficulty_decrease": 1,
+    "employment_levels_increase": 1,
+    "business_failure_rate_increase": 1,
+    "job_destruction_increase": 1,
+    "business_failure_rate_decrease": 1,
+    "job_destruction_decrease": 1,
+    "capital_expenditure_decrease": 2,
+    "long_term_capacity_decrease": 1,
+    "capital_expenditure_increase": 2,
+    "long_term_capacity_increase": 1,
+    "profit_margin_decrease": 1,
+    "dividend_payment_decrease": 1,
+    "profit_margin_increase": 1,
+    "dividend_payment_increase": 1,
+    "corporate_debt_increase": 1,
+    "financial_fragility_increase": 1,
+    "corporate_debt_decrease": 1,
+    "financial_fragility_decrease": 1,
+    "merger_activity_decrease": 1,
+    "market_consolidation_decrease": 1,
+    "merger_activity_increase": 1,
+    "market_consolidation_increase": 1,
+    "business_confidence_decrease": 2,
+    "hiring_freeze_increase": 1,
+    "business_confidence_increase": 2,
+    "hiring_freeze_decrease": 1,
+    "d_spending_decrease": 1,
+    "innovation_rate_decrease": 1,
+    "d_spending_increase": 1,
+    "innovation_rate_increase": 1,
+    "foreign_direct_investment_decrease": 1,
+    "capital_formation_decrease": 1,
+    "foreign_direct_investment_increase": 1,
+    "capital_formation_increase": 1,
+    "manufacturing_output_increase": 2,
+    "export_revenue_increase": 1,
+    "industrial_employment_decrease": 1,
+    "industrial_employment_increase": 1,
+    "trade_deficit_increase": 1,
+    "currency_depreciation_risk_increase": 1,
+    "trade_deficit_decrease": 1,
+    "currency_depreciation_risk_decrease": 1,
+    "export_demand_decrease": 1,
+    "factory_utilization_decrease": 1,
+    "export_demand_increase": 1,
+    "factory_utilization_increase": 1,
+    "supply_chain_disruption_increase": 1,
+    "supply_chain_disruption_decrease": 1,
+    "tariff_increase": 1,
+    "import_cost_increase": 3,
+    "tariff_decrease": 1,
+    "import_cost_decrease": 3,
+    "domestic_price_level_increase": 1,
+    "domestic_price_level_decrease": 1,
+    "trade_war_intensity_increase": 1,
+    "global_trade_volume_decrease": 2,
+    "trade_war_intensity_decrease": 1,
+    "global_trade_volume_increase": 2,
+    "export_competitiveness_decrease": 1,
+    "trade_surplus_decrease": 1,
+    "export_competitiveness_increase": 1,
+    "trade_surplus_increase": 1,
+    "manufacturing_capacity_utilization_decrease": 1,
+    "capital_investment_decrease": 1,
+    "manufacturing_capacity_utilization_increase": 1,
+    "capital_investment_increase": 1,
+    "government_spending_increase": 1,
+    "public_service_quality_increase": 1,
+    "fiscal_stimulus_increase": 1,
+    "aggregate_demand_increase": 3,
+    "fiscal_stimulus_decrease": 1,
+    "aggregate_demand_decrease": 1,
+    "government_debt_increase": 1,
+    "sovereign_risk_premium_increase": 1,
+    "government_debt_decrease": 1,
+    "sovereign_risk_premium_decrease": 1,
+    "budget_deficit_increase": 1,
+    "budget_deficit_decrease": 1,
+    "austerity_measure_increase": 1,
+    "public_investment_decrease": 1,
+    "austerity_measure_decrease": 1,
+    "public_investment_increase": 1,
+    "automatic_stabilizer_activation_increase": 1,
+    "recession_depth_decrease": 1,
+    "automatic_stabilizer_activation_decrease": 1,
+    "recession_depth_increase": 1,
+    "infrastructure_spending_increase": 1,
+    "long_run_productivity_increase": 1,
+    "infrastructure_spending_decrease": 1,
+    "long_run_productivity_decrease": 1,
+    "social_safety_net_spending_increase": 1,
+    "poverty_severity_decrease": 1,
+    "social_safety_net_spending_decrease": 1,
+    "poverty_severity_increase": 1,
+    "corporate_tax_rate_increase": 1,
+    "after_tax_profit_decrease": 1,
+    "corporate_tax_rate_decrease": 1,
+    "after_tax_profit_increase": 1,
+    "income_tax_increase": 1,
+    "disposable_income_decrease": 1,
+    "income_tax_decrease": 1,
+    "disposable_income_increase": 1,
+    "central_bank_rate_increase": 1,
+    "loan_growth_decrease": 1,
+    "central_bank_rate_decrease": 1,
+    "loan_growth_increase": 1,
+    "quantitative_easing_increase": 1,
+    "asset_price_increase": 2,
+    "quantitative_easing_decrease": 1,
+    "asset_price_decrease": 2,
+    "money_supply_increase": 1,
+    "inflation_risk_increase": 1,
+    "money_supply_decrease": 1,
+    "inflation_risk_decrease": 1,
+    "reserve_requirement_increase": 1,
+    "bank_lending_capacity_decrease": 1,
+    "reserve_requirement_decrease": 1,
+    "bank_lending_capacity_increase": 1,
+    "forward_guidance_clarity_increase": 1,
+    "market_uncertainty_decrease": 1,
+    "forward_guidance_clarity_decrease": 1,
+    "market_uncertainty_increase": 1,
+    "central_bank_credibility_increase": 1,
+    "inflation_expectation_stability_increase": 1,
+    "central_bank_credibility_decrease": 1,
+    "inflation_expectation_stability_decrease": 1,
+    "yield_curve_inversion_increase": 1,
+    "recession_probability_increase": 1,
+    "yield_curve_inversion_decrease": 1,
+    "recession_probability_decrease": 1,
+    "housing_price_decrease": 2,
+    "household_wealth_decrease": 1,
+    "housing_price_increase": 2,
+    "household_wealth_increase": 1,
+    "construction_activity_decrease": 1,
+    "construction_activity_increase": 1,
+    "foreclosure_rate_increase": 1,
+    "neighborhood_property_value_decrease": 1,
+    "foreclosure_rate_decrease": 1,
+    "neighborhood_property_value_increase": 1,
+    "housing_starts_decrease": 1,
+    "construction_employment_decrease": 1,
+    "housing_starts_increase": 1,
+    "construction_employment_increase": 1,
+    "home_equity_decrease": 1,
+    "home_equity_loan_availability_decrease": 1,
+    "home_equity_increase": 1,
+    "home_equity_loan_availability_increase": 1,
+    "rental_vacancy_rate_increase": 1,
+    "rental_income_decrease": 2,
+    "rental_vacancy_rate_decrease": 1,
+    "rental_income_increase": 2,
+    "housing_supply_shortage_increase": 1,
+    "affordability_decrease": 1,
+    "housing_supply_shortage_decrease": 1,
+    "affordability_increase": 1,
+    "real_estate_speculation_increase": 1,
+    "price_bubble_risk_increase": 1,
+    "real_estate_speculation_decrease": 1,
+    "price_bubble_risk_decrease": 1,
+    "bank_capital_ratio_decrease": 1,
+    "systemic_fragility_increase": 1,
+    "bank_capital_ratio_increase": 1,
+    "systemic_fragility_decrease": 1,
+    "non_performing_loan_ratio_increase": 1,
+    "non_performing_loan_ratio_decrease": 1,
+    "bank_run_probability_increase": 1,
+    "financial_panic_increase": 1,
+    "bank_run_probability_decrease": 1,
+    "financial_panic_decrease": 1,
+    "shadow_banking_growth_increase": 1,
+    "regulatory_oversight_gap_increase": 1,
+    "shadow_banking_growth_decrease": 1,
+    "regulatory_oversight_gap_decrease": 1,
+    "financial_leverage_increase": 1,
+    "asset_price_volatility_increase": 1,
+    "financial_leverage_decrease": 1,
+    "asset_price_volatility_decrease": 1,
+    "deposit_guarantee_coverage_increase": 1,
+    "bank_run_risk_decrease": 1,
+    "deposit_guarantee_coverage_decrease": 1,
+    "bank_run_risk_increase": 1,
+    "banking_sector_concentration_increase": 1,
+    "banking_sector_concentration_decrease": 1,
+    "financial_regulation_strength_increase": 1,
+    "risk_taking_decrease": 1,
+    "financial_regulation_strength_decrease": 1,
+    "risk_taking_increase": 1,
+    "currency_depreciation_increase": 3,
+    "currency_depreciation_decrease": 3,
+    "export_price_competitiveness_increase": 1,
+    "export_price_competitiveness_decrease": 1,
+    "exchange_rate_volatility_increase": 1,
+    "trade_uncertainty_increase": 1,
+    "exchange_rate_volatility_decrease": 1,
+    "trade_uncertainty_decrease": 1,
+    "capital_flight_increase": 1,
+    "capital_flight_decrease": 1,
+    "foreign_exchange_reserve_decrease": 1,
+    "currency_defense_capacity_decrease": 1,
+    "foreign_exchange_reserve_increase": 1,
+    "currency_defense_capacity_increase": 1,
+    "current_account_deficit_increase": 1,
+    "external_borrowing_need_increase": 1,
+    "current_account_deficit_decrease": 1,
+    "external_borrowing_need_decrease": 1,
+    "wage_growth_increase": 3,
+    "household_income_increase": 3,
+    "wage_growth_decrease": 1,
+    "household_income_decrease": 3,
+    "labor_force_participation_decrease": 1,
+    "potential_output_decrease": 1,
+    "labor_force_participation_increase": 1,
+    "potential_output_increase": 1,
+    "minimum_wage_increase": 1,
+    "low_income_purchasing_power_increase": 1,
+    "minimum_wage_decrease": 1,
+    "low_income_purchasing_power_decrease": 1,
+    "gig_economy_growth_increase": 1,
+    "worker_income_stability_decrease": 1,
+    "gig_economy_growth_decrease": 1,
+    "worker_income_stability_increase": 1,
+    "labor_productivity_increase": 1,
+    "unit_labor_cost_decrease": 1,
+    "labor_productivity_decrease": 1,
+    "unit_labor_cost_increase": 1,
+    "skills_mismatch_increase": 1,
+    "skills_mismatch_decrease": 1,
+    "union_bargaining_power_increase": 1,
+    "union_bargaining_power_decrease": 1,
+    "automation_adoption_increase": 1,
+    "routine_job_displacement_increase": 1,
+    "automation_adoption_decrease": 1,
+    "routine_job_displacement_decrease": 1,
+    "worker_retraining_investment_increase": 1,
+    "worker_retraining_investment_decrease": 1,
+    "income_inequality_increase": 1,
+    "social_mobility_decrease": 1,
+    "income_inequality_decrease": 1,
+    "social_mobility_increase": 1,
+    "healthcare_cost_burden_increase": 1,
+    "healthcare_cost_burden_decrease": 1,
+    "wealth_concentration_increase": 1,
+    "political_influence_inequality_increase": 1,
+    "wealth_concentration_decrease": 1,
+    "political_influence_inequality_decrease": 1,
+    "wage_stagnation_increase": 1,
+    "household_debt_increase": 1,
+    "wage_stagnation_decrease": 1,
+    "household_debt_decrease": 1,
+    "educational_inequality_increase": 1,
+    "intergenerational_poverty_increase": 1,
+    "educational_inequality_decrease": 1,
+    "intergenerational_poverty_decrease": 1,
+    "social_safety_net_adequacy_decrease": 1,
+    "poverty_trap_intensity_increase": 1,
+    "social_safety_net_adequacy_increase": 1,
+    "poverty_trap_intensity_decrease": 1,
+    "global_recession_depth_increase": 1,
+    "emerging_market_stress_increase": 1,
+    "global_recession_depth_decrease": 1,
+    "emerging_market_stress_decrease": 1,
+    "financial_contagion_spread_increase": 1,
+    "cross_border_credit_contraction_increase": 1,
+    "financial_contagion_spread_decrease": 1,
+    "cross_border_credit_contraction_decrease": 1,
+    "commodity_price_decrease": 3,
+    "resource_exporter_gdp_decrease": 1,
+    "resource_exporter_gdp_increase": 1,
+    "port_activity_decrease": 1,
+    "port_activity_increase": 1,
+    "geopolitical_risk_increase": 1,
+    "foreign_investment_decrease": 1,
+    "geopolitical_risk_decrease": 1,
+    "foreign_investment_increase": 1,
+    "global_supply_chain_fragility_increase": 1,
+    "inflation_pass_through_increase": 1,
+    "global_supply_chain_fragility_decrease": 1,
+    "inflation_pass_through_decrease": 1,
+    "developed_economy_recession_increase": 1,
+    "developing_countries_decrease": 1,
+    "developed_economy_recession_decrease": 1,
+    "developing_countries_increase": 1,
+    "inflation_expectation_increase": 2,
+    "wage_demand_increase": 1,
+    "inflation_expectation_decrease": 2,
+    "wage_demand_decrease": 1,
+    "recession_expectation_increase": 1,
+    "precautionary_saving_increase": 1,
+    "recession_expectation_decrease": 1,
+    "precautionary_saving_decrease": 1,
+    "policy_uncertainty_increase": 1,
+    "investment_delay_increase": 1,
+    "policy_uncertainty_decrease": 1,
+    "investment_delay_decrease": 1,
+    "market_sentiment_deterioration_increase": 1,
+    "risk_asset_selloff_increase": 1,
+    "market_sentiment_deterioration_decrease": 1,
+    "risk_asset_selloff_decrease": 1,
+    "economic_optimism_increase": 1,
+    "forward_investment_commitment_increase": 1,
+    "economic_optimism_decrease": 1,
+    "forward_investment_commitment_decrease": 1,
+    "total_factor_productivity_decrease": 1,
+    "potential_gdp_growth_decrease": 1,
+    "total_factor_productivity_increase": 1,
+    "potential_gdp_growth_increase": 1,
+    "technology_adoption_rate_increase": 1,
+    "output_per_worker_increase": 1,
+    "technology_adoption_rate_decrease": 1,
+    "output_per_worker_decrease": 1,
+    "human_capital_investment_increase": 1,
+    "long_run_earnings_increase": 1,
+    "human_capital_investment_decrease": 1,
+    "long_run_earnings_decrease": 1,
+    "regulatory_burden_increase": 1,
+    "compliance_cost_increase": 1,
+    "regulatory_burden_decrease": 1,
+    "compliance_cost_decrease": 1,
+    "competition_intensity_increase": 1,
+    "price_markup_decrease": 1,
+    "competition_intensity_decrease": 1,
+    "price_markup_increase": 1,
+    "infrastructure_quality_decrease": 1,
+    "logistics_cost_increase": 1,
+    "infrastructure_quality_increase": 1,
+    "logistics_cost_decrease": 1,
+    "energy_cost_increase": 1,
+    "industrial_production_cost_increase": 1,
+    "energy_cost_decrease": 1,
+    "industrial_production_cost_decrease": 1,
+    "commercial_real_estate_vacancy_increase": 1,
+    "commercial_real_estate_vacancy_decrease": 1,
+    "construction_cost_increase": 1,
+    "new_housing_supply_decrease": 1,
+    "construction_cost_decrease": 1,
+    "new_housing_supply_increase": 1,
+    "property_tax_revenue_decrease": 1,
+    "municipal_service_quality_decrease": 1,
+    "property_tax_revenue_increase": 1,
+    "municipal_service_quality_increase": 1,
+    "real_estate_price_crash_increase": 1,
+    "bank_collateral_value_decrease": 1,
+    "real_estate_price_crash_decrease": 1,
+    "bank_collateral_value_increase": 1,
+    "oil_price_increase": 2,
+    "oil_price_decrease": 2,
+    "energy_import_bill_increase": 1,
+    "energy_import_bill_decrease": 1,
+    "commodity_price_increase": 1,
+    "raw_material_cost_increase": 1,
+    "raw_material_cost_decrease": 1,
+    "energy_price_volatility_increase": 1,
+    "business_planning_uncertainty_increase": 1,
+    "energy_price_volatility_decrease": 1,
+    "business_planning_uncertainty_decrease": 1,
+    "renewable_energy_cost_decrease": 1,
+    "fossil_fuel_dependency_decrease": 1,
+    "renewable_energy_cost_increase": 1,
+    "fossil_fuel_dependency_increase": 1,
+    "income_ratio_increase": 1,
+    "financial_vulnerability_increase": 1,
+    "income_ratio_decrease": 1,
+    "financial_vulnerability_decrease": 1,
+    "sovereign_debt_crisis_increase": 1,
+    "government_borrowing_cost_increase": 1,
+    "sovereign_debt_crisis_decrease": 1,
+    "government_borrowing_cost_decrease": 1,
+    "debt_deleveraging_increase": 1,
+    "debt_deleveraging_decrease": 1,
+    "debt_monetization_increase": 1,
+    "debt_monetization_decrease": 1,
+    "corporate_leverage_increase": 1,
+    "earnings_volatility_increase": 1,
+    "corporate_leverage_decrease": 1,
+    "earnings_volatility_decrease": 1,
+    "student_debt_burden_increase": 1,
+    "household_formation_rate_decrease": 1,
+    "student_debt_burden_decrease": 1,
+    "household_formation_rate_increase": 1,
+    "gdp_growth_decrease": 1,
+    "gdp_growth_increase": 1,
+    "credit_crunch_severity_increase": 1,
+    "small_business_closure_rate_increase": 1,
+    "credit_crunch_severity_decrease": 1,
+    "small_business_closure_rate_decrease": 1,
+    "loan_loss_provision_increase": 1,
+    "bank_profit_decrease": 2,
+    "loan_loss_provision_decrease": 1,
+    "bank_profit_increase": 2,
+    "dividend_cut_increase": 1,
+    "dividend_cut_decrease": 1,
+    "interbank_rate_increase": 1,
+    "lending_rate_increase": 1,
+    "interbank_rate_decrease": 1,
+    "lending_rate_decrease": 1,
+    "liquidity_trap_severity_increase": 1,
+    "monetary_policy_effectiveness_decrease": 1,
+    "liquidity_trap_severity_decrease": 1,
+    "monetary_policy_effectiveness_increase": 1,
+    "layoff_rate_increase": 2,
+    "hiring_rate_increase": 2,
+    "monetary_easing_increase": 1,
+    "investment_activity_increase": 2,
+    "employment_growth_increase": 2,
+    "fiscal_expansion_increase": 1,
+    "output_gap_decrease": 2,
+    "wage_pressure_increase": 2,
+    "asset_price_bubble_increase": 1,
+    "systemic_leverage_increase": 2,
+    "asset_price_bubble_decrease": 1,
+    "systemic_leverage_decrease": 2,
+    "crash_severity_increase": 2,
+    "crash_severity_decrease": 2,
+    "credit_freeze_increase": 2,
+    "credit_freeze_decrease": 2,
+    "real_economy_damage_increase": 1,
+    "real_economy_damage_decrease": 1,
+    "bank_bailout_cost_increase": 1,
+    "public_debt_increase": 1,
+    "bank_bailout_cost_decrease": 1,
+    "public_debt_decrease": 1,
+    "financial_crisis_severity_increase": 1,
+    "long_run_gdp_loss_increase": 1,
+    "financial_crisis_severity_decrease": 1,
+    "long_run_gdp_loss_decrease": 1,
+    "post_crisis_deleveraging_increase": 1,
+    "credit_growth_slowdown_increase": 1,
+    "post_crisis_deleveraging_decrease": 1,
+    "credit_growth_slowdown_decrease": 1,
+    "demographic_aging_increase": 2,
+    "pension_expenditure_increase": 1,
+    "demographic_aging_decrease": 2,
+    "pension_expenditure_decrease": 1,
+    "labor_supply_decrease": 1,
+    "labor_supply_increase": 1,
+    "urbanization_rate_increase": 1,
+    "agglomeration_productivity_increase": 1,
+    "urbanization_rate_decrease": 1,
+    "agglomeration_productivity_decrease": 1,
+    "institutional_quality_increase": 1,
+    "transaction_cost_decrease": 1,
+    "institutional_quality_decrease": 1,
+    "transaction_cost_increase": 1,
+    "property_rights_security_increase": 1,
+    "long_term_investment_increase": 1,
+    "property_rights_security_decrease": 1,
+    "long_term_investment_decrease": 1,
+    "law_strength_increase": 1,
+    "contract_enforcement_reliability_increase": 1,
+    "law_strength_decrease": 1,
+    "contract_enforcement_reliability_decrease": 1,
+    "automotive_sector_contraction_increase": 1,
+    "steel_demand_decrease": 1,
+    "automotive_sector_contraction_decrease": 1,
+    "steel_demand_increase": 1,
+    "technology_sector_downturn_increase": 1,
+    "venture_capital_activity_decrease": 1,
+    "technology_sector_downturn_decrease": 1,
+    "venture_capital_activity_increase": 1,
+    "retail_closure_rate_increase": 1,
+    "commercial_rent_income_decrease": 1,
+    "retail_closure_rate_decrease": 1,
+    "commercial_rent_income_increase": 1,
+    "airline_sector_stress_increase": 1,
+    "tourism_revenue_decrease": 1,
+    "airline_sector_stress_decrease": 1,
+    "tourism_revenue_increase": 1,
+    "agriculture_productivity_decrease": 1,
+    "food_import_dependency_increase": 1,
+    "agriculture_productivity_increase": 1,
+    "food_import_dependency_decrease": 1,
+    "capital_inflow_increase": 1,
+    "domestic_investment_capacity_increase": 1,
+    "capital_inflow_decrease": 1,
+    "domestic_investment_capacity_decrease": 1,
+    "capital_outflow_increase": 1,
+    "domestic_credit_availability_decrease": 1,
+    "capital_outflow_decrease": 1,
+    "domestic_credit_availability_increase": 1,
+    "hot_money_inflow_increase": 1,
+    "currency_overvaluation_risk_increase": 1,
+    "hot_money_inflow_decrease": 1,
+    "currency_overvaluation_risk_decrease": 1,
+    "remittance_inflow_increase": 1,
+    "household_consumption_increase": 1,
+    "remittance_inflow_decrease": 1,
+    "household_consumption_decrease": 1,
+    "sovereign_wealth_fund_withdrawal_increase": 1,
+    "domestic_asset_support_decrease": 1,
+    "sovereign_wealth_fund_withdrawal_decrease": 1,
+    "domestic_asset_support_increase": 1
   },
-  "doc_count": 30,
+  "doc_count": 456,
   "model_id": "recession_model",
   "description": "Recession Indicator \u2014 Economic Risk Analyzer. Trained on macroeconomic indicators."
 }
