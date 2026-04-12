@@ -1,0 +1,98 @@
+{
+  "edges": {
+    "undersea_earthquake_increase": {
+      "tsunami_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "ocean_floor_displacement_increase": {
+      "wave_height_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "wave_height_increase": {
+      "coastal_flooding_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "early_warning_decrease": {
+      "evacuation_time_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "seabed_landslide_increase": {
+      "tsunami_generation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "coastal_elevation_decrease": {
+      "inundation_depth_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 3
+      }
+    },
+    "wave_propagation_speed_increase": {
+      "warning_time_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 3
+      }
+    },
+    "submarine_volcano_eruption_increase": {
+      "ocean_disturbance_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "offshore_fault_activity_increase": {
+      "wave_energy_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "harbor_resonance_increase": {
+      "wave_amplification_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    }
+  },
+  "word_freq": {
+    "undersea_earthquake_increase": 3,
+    "tsunami_risk_increase": 3,
+    "ocean_floor_displacement_increase": 3,
+    "wave_height_increase": 6,
+    "coastal_flooding_increase": 3,
+    "early_warning_decrease": 3,
+    "evacuation_time_decrease": 3,
+    "seabed_landslide_increase": 3,
+    "tsunami_generation_increase": 3,
+    "coastal_elevation_decrease": 3,
+    "inundation_depth_increase": 3,
+    "wave_propagation_speed_increase": 3,
+    "warning_time_decrease": 3,
+    "submarine_volcano_eruption_increase": 3,
+    "ocean_disturbance_increase": 3,
+    "offshore_fault_activity_increase": 3,
+    "wave_energy_increase": 3,
+    "harbor_resonance_increase": 3,
+    "wave_amplification_increase": 3
+  },
+  "doc_count": 30,
+  "model_id": "tsunami_model",
+  "description": "Tsunami Warning \u2014 Ocean Wave Propagation. Trained on seismic and oceanic data."
+}

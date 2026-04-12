@@ -1,0 +1,27 @@
+{
+  "edges": {
+    "rainfall_increase": {
+      "flood_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "temperature_increase": {
+      "snow_melt_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    }
+  },
+  "word_freq": {
+    "rainfall_increase": 1,
+    "flood_increase": 1,
+    "temperature_increase": 1,
+    "snow_melt_increase": 1
+  },
+  "doc_count": 2,
+  "model_id": "test_model",
+  "description": ""
+}

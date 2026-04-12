@@ -1,0 +1,787 @@
+{
+  "edges": {
+    "tectonic_stress_increase": {
+      "fault_slip_probability_increase": {
+        "strength": 0.7777777777777778,
+        "polarity": 1,
+        "count": 7
+      },
+      "fault_slip_probability_decrease": {
+        "strength": 0.2222222222222222,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "fault_slip_probability_increase": {
+      "earthquake_occurrence_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "earthquake_occurrence_increase": {
+      "ground_shaking_intensity_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 7
+      },
+      "landslide_risk_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 7
+      },
+      "tsunami_risk_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "ground_shaking_intensity_increase": {
+      "building_damage_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 7
+      },
+      "infrastructure_failure_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_damage_increase": {
+      "economic_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "infrastructure_failure_increase": {
+      "service_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "service_disruption_increase": {
+      "economic_activity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "landslide_risk_increase": {
+      "road_blockage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "road_blockage_increase": {
+      "emergency_response_delay_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "emergency_response_delay_increase": {
+      "mortality_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "tsunami_risk_increase": {
+      "coastal_flooding_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "coastal_flooding_increase": {
+      "property_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_vulnerability_increase": {
+      "risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "risk_increase": {
+      "casualty_count_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "population_density_increase": {
+      "exposure_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "exposure_risk_increase": {
+      "casualty_count_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "early_warning_systems_increase": {
+      "evacuation_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "evacuation_rate_increase": {
+      "mortality_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "soil_liquefaction_increase": {
+      "foundation_failure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "foundation_failure_increase": {
+      "building_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "aftershock_frequency_increase": {
+      "structural_stability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "structural_stability_decrease": {
+      "risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "seismic_monitoring_increase": {
+      "early_warning_accuracy_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "early_warning_accuracy_increase": {
+      "evacuation_time_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "evacuation_time_increase": {
+      "casualty_count_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "urbanization_increase": {
+      "building_density_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_density_increase": {
+      "damage_extent_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "damage_extent_increase": {
+      "recovery_time_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "recovery_time_increase": {
+      "economic_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "emergency_preparedness_increase": {
+      "response_efficiency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "response_efficiency_increase": {
+      "mortality_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "resilient_infrastructure_increase": {
+      "infrastructure_failure_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "infrastructure_failure_decrease": {
+      "service_disruption_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 9
+      }
+    },
+    "public_awareness_increase": {
+      "preparedness_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "preparedness_level_increase": {
+      "injury_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "seismic_hazard_mapping_increase": {
+      "risk_identification_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "risk_identification_increase": {
+      "mitigation_planning_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "mitigation_planning_increase": {
+      "damage_reduction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_retrofitting_increase": {
+      "structural_strength_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "structural_strength_increase": {
+      "risk_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "fault_line_activity_increase": {
+      "seismic_energy_release_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "seismic_energy_release_increase": {
+      "ground_acceleration_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "ground_acceleration_increase": {
+      "structural_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "weak_soil_conditions_increase": {
+      "liquefaction_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "liquefaction_risk_increase": {
+      "building_settlement_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_settlement_increase": {
+      "structural_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "bridge_failure_increase": {
+      "transport_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "transport_disruption_increase": {
+      "supply_chain_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "supply_chain_disruption_increase": {
+      "goods_shortage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "goods_shortage_increase": {
+      "price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "insurance_coverage_increase": {
+      "financial_recovery_speed_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "financial_recovery_speed_increase": {
+      "economic_loss_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "building_height_increase": {
+      "risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "construction_quality_decrease": {
+      "building_vulnerability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "evacuation_drills_increase": {
+      "evacuation_efficiency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "evacuation_efficiency_increase": {
+      "casualty_count_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "seismic_code_enforcement_increase": {
+      "building_safety_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "building_safety_increase": {
+      "risk_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "hospital_capacity_increase": {
+      "emergency_care_availability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "emergency_care_availability_increase": {
+      "mortality_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "power_outage_increase": {
+      "communication_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "communication_disruption_increase": {
+      "coordination_efficiency_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "coordination_efficiency_decrease": {
+      "response_delay_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 7
+      }
+    },
+    "response_delay_increase": {
+      "mortality_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "debris_removal_speed_increase": {
+      "road_accessibility_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "road_accessibility_increase": {
+      "rescue_speed_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "rescue_speed_increase": {
+      "survival_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "ground_cracking_increase": {
+      "infrastructure_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "infrastructure_damage_increase": {
+      "repair_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "repair_cost_increase": {
+      "economic_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "water_pipeline_damage_increase": {
+      "water_supply_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "water_supply_disruption_increase": {
+      "public_health_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "public_health_risk_increase": {
+      "disease_outbreak_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "gas_leakage_increase": {
+      "fire_outbreak_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "fire_outbreak_risk_increase": {
+      "property_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "evacuation_delay_increase": {
+      "casualty_count_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 7
+      }
+    },
+    "fault_slip_probability_decrease": {
+      "earthquake_occurrence_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "earthquake_occurrence_decrease": {
+      "ground_shaking_intensity_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      },
+      "landslide_risk_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      },
+      "tsunami_risk_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "ground_shaking_intensity_decrease": {
+      "building_damage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "building_damage_decrease": {
+      "economic_loss_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "infrastructure_failure_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "service_disruption_decrease": {
+      "economic_activity_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "landslide_risk_decrease": {
+      "road_blockage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "road_blockage_decrease": {
+      "emergency_response_delay_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "emergency_response_delay_decrease": {
+      "mortality_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "tsunami_risk_decrease": {
+      "coastal_flooding_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "coastal_flooding_decrease": {
+      "property_damage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "property_damage_decrease": {
+      "casualty_count_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "casualty_count_decrease": {
+      "evacuation_time_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "evacuation_time_decrease": {
+      "survival_rate_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "survival_rate_decrease": {
+      "public_health_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "public_health_risk_decrease": {
+      "disease_outbreak_risk_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    }
+  },
+  "word_freq": {
+    "tectonic_stress_increase": 9,
+    "fault_slip_probability_increase": 14,
+    "earthquake_occurrence_increase": 28,
+    "ground_shaking_intensity_increase": 21,
+    "building_damage_increase": 21,
+    "economic_loss_increase": 21,
+    "infrastructure_failure_increase": 14,
+    "service_disruption_increase": 14,
+    "economic_activity_decrease": 9,
+    "landslide_risk_increase": 14,
+    "road_blockage_increase": 14,
+    "emergency_response_delay_increase": 14,
+    "mortality_rate_increase": 14,
+    "tsunami_risk_increase": 14,
+    "coastal_flooding_increase": 14,
+    "property_damage_increase": 14,
+    "building_vulnerability_increase": 14,
+    "risk_increase": 28,
+    "casualty_count_increase": 21,
+    "population_density_increase": 7,
+    "exposure_risk_increase": 14,
+    "early_warning_systems_increase": 7,
+    "evacuation_rate_increase": 14,
+    "mortality_rate_decrease": 23,
+    "soil_liquefaction_increase": 7,
+    "foundation_failure_increase": 14,
+    "aftershock_frequency_increase": 7,
+    "structural_stability_decrease": 14,
+    "seismic_monitoring_increase": 7,
+    "early_warning_accuracy_increase": 14,
+    "evacuation_time_increase": 14,
+    "casualty_count_decrease": 18,
+    "urbanization_increase": 7,
+    "building_density_increase": 14,
+    "damage_extent_increase": 14,
+    "recovery_time_increase": 14,
+    "emergency_preparedness_increase": 7,
+    "response_efficiency_increase": 14,
+    "resilient_infrastructure_increase": 7,
+    "infrastructure_failure_decrease": 18,
+    "service_disruption_decrease": 11,
+    "public_awareness_increase": 7,
+    "preparedness_level_increase": 14,
+    "injury_rate_decrease": 7,
+    "seismic_hazard_mapping_increase": 7,
+    "risk_identification_increase": 14,
+    "mitigation_planning_increase": 14,
+    "damage_reduction_increase": 7,
+    "building_retrofitting_increase": 7,
+    "structural_strength_increase": 14,
+    "risk_decrease": 14,
+    "fault_line_activity_increase": 7,
+    "seismic_energy_release_increase": 14,
+    "ground_acceleration_increase": 14,
+    "structural_damage_increase": 14,
+    "weak_soil_conditions_increase": 7,
+    "liquefaction_risk_increase": 14,
+    "building_settlement_increase": 14,
+    "bridge_failure_increase": 7,
+    "transport_disruption_increase": 14,
+    "supply_chain_disruption_increase": 14,
+    "goods_shortage_increase": 14,
+    "price_increase": 7,
+    "insurance_coverage_increase": 7,
+    "financial_recovery_speed_increase": 14,
+    "economic_loss_decrease": 9,
+    "building_height_increase": 7,
+    "construction_quality_decrease": 7,
+    "evacuation_drills_increase": 7,
+    "evacuation_efficiency_increase": 14,
+    "seismic_code_enforcement_increase": 7,
+    "building_safety_increase": 14,
+    "hospital_capacity_increase": 7,
+    "emergency_care_availability_increase": 14,
+    "power_outage_increase": 7,
+    "communication_disruption_increase": 14,
+    "coordination_efficiency_decrease": 14,
+    "response_delay_increase": 14,
+    "debris_removal_speed_increase": 7,
+    "road_accessibility_increase": 14,
+    "rescue_speed_increase": 14,
+    "survival_rate_increase": 7,
+    "ground_cracking_increase": 7,
+    "infrastructure_damage_increase": 14,
+    "repair_cost_increase": 14,
+    "water_pipeline_damage_increase": 7,
+    "water_supply_disruption_increase": 14,
+    "public_health_risk_increase": 14,
+    "disease_outbreak_risk_increase": 7,
+    "gas_leakage_increase": 7,
+    "fire_outbreak_risk_increase": 14,
+    "evacuation_delay_increase": 7,
+    "fault_slip_probability_decrease": 4,
+    "earthquake_occurrence_decrease": 8,
+    "ground_shaking_intensity_decrease": 4,
+    "building_damage_decrease": 6,
+    "landslide_risk_decrease": 4,
+    "road_blockage_decrease": 4,
+    "emergency_response_delay_decrease": 4,
+    "tsunami_risk_decrease": 4,
+    "coastal_flooding_decrease": 4,
+    "property_damage_decrease": 4,
+    "evacuation_time_decrease": 4,
+    "survival_rate_decrease": 4,
+    "public_health_risk_decrease": 4,
+    "disease_outbreak_risk_decrease": 2
+  },
+  "doc_count": 600,
+  "model_id": "seismic_risk_casual_data",
+  "description": "Trained from seismic_risk_casual_data.txt (TXT, 4.9 KB)"
+}

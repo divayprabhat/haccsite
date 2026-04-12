@@ -1,0 +1,98 @@
+{
+  "edges": {
+    "tectonic_stress_increase": {
+      "seismic_activity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "fault_line_pressure_increase": {
+      "earthquake_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "seismic_activity_increase": {
+      "building_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "soil_liquefaction_increase": {
+      "infrastructure_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "aftershock_frequency_increase": {
+      "casualty_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "ground_motion_increase": {
+      "structural_failure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "epicenter_depth_decrease": {
+      "surface_damage_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 3
+      }
+    },
+    "seismic_wave_amplitude_increase": {
+      "ground_displacement_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "fault_rupture_length_increase": {
+      "earthquake_magnitude_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "building_age_increase": {
+      "earthquake_vulnerability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    }
+  },
+  "word_freq": {
+    "tectonic_stress_increase": 3,
+    "seismic_activity_increase": 6,
+    "fault_line_pressure_increase": 3,
+    "earthquake_risk_increase": 3,
+    "building_damage_increase": 3,
+    "soil_liquefaction_increase": 3,
+    "infrastructure_damage_increase": 3,
+    "aftershock_frequency_increase": 3,
+    "casualty_risk_increase": 3,
+    "ground_motion_increase": 3,
+    "structural_failure_increase": 3,
+    "epicenter_depth_decrease": 3,
+    "surface_damage_increase": 3,
+    "seismic_wave_amplitude_increase": 3,
+    "ground_displacement_increase": 3,
+    "fault_rupture_length_increase": 3,
+    "earthquake_magnitude_increase": 3,
+    "building_age_increase": 3,
+    "earthquake_vulnerability_increase": 3
+  },
+  "doc_count": 30,
+  "model_id": "seismic_model",
+  "description": "Seismic Risk \u2014 Earthquake Predictor. Trained on fault-line and magnitude data."
+}

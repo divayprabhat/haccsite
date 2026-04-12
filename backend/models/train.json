@@ -1,0 +1,381 @@
+{
+  "edges": {
+    "oil_supply_decrease": {
+      "oil_price_increase": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 2
+      },
+      "price_increase": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "oil_price_increase": {
+      "inflation_increase": {
+        "strength": 0.4,
+        "polarity": 1,
+        "count": 2
+      },
+      "transport_cost_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "fuel_cost_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      },
+      "fuel_price_increase": {
+        "strength": 0.2,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_increase": {
+      "rupee_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      },
+      "interest_rate_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 1
+      },
+      "purchasing_power_decrease": {
+        "strength": 0.3333333333333333,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "transport_cost_increase": {
+      "company_profit_decrease": {
+        "strength": 0.5,
+        "polarity": -1,
+        "count": 1
+      },
+      "food_price_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "company_profit_decrease": {
+      "stock_price_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "fuel_cost_increase": {
+      "logistics_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "logistics_cost_increase": {
+      "product_price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "product_price_increase": {
+      "consumer_demand_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "consumer_demand_decrease": {
+      "business_revenue_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "oil_supply_increase": {
+      "oil_price_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "oil_price_decrease": {
+      "inflation_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "transport_cost_decrease": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "inflation_decrease": {
+      "rupee_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "transport_cost_decrease": {
+      "company_profit_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "company_profit_increase": {
+      "stock_price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "fuel_cost_decrease": {
+      "logistics_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "logistics_cost_decrease": {
+      "product_price_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "product_price_decrease": {
+      "consumer_demand_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "consumer_demand_increase": {
+      "business_revenue_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "patient_risk_increase": {
+      "hospital_load_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "hospital_load_increase": {
+      "staff_stress_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "staff_stress_increase": {
+      "treatment_quality_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "economic_loss_increase": {
+      "recovery_time_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "demand_increase": {
+      "price_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "company_revenue_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "demand_decrease": {
+      "price_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "supply_increase": {
+      "price_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "building_decrease": {
+      "casualties_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "disease_spread_increase": {
+      "hospital_load_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "pollution_increase": {
+      "respiratory_disease_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "respiratory_disease_increase": {
+      "hospital_visits_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "purchasing_power_decrease": {
+      "demand_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "revenue_increase": {
+      "profit_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "fuel_price_increase": {
+      "transportation_cost_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      },
+      "transport_cost_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "transportation_cost_increase": {
+      "product_price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "renewable_energy_increase": {
+      "pollution_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    },
+    "population_increase": {
+      "resource_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "resource_demand_increase": {
+      "scarcity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "tax_increase": {
+      "product_price_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 1
+      }
+    },
+    "subsidy_increase": {
+      "price_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 1
+      }
+    }
+  },
+  "word_freq": {
+    "oil_supply_decrease": 4,
+    "oil_price_increase": 7,
+    "inflation_increase": 5,
+    "rupee_decrease": 1,
+    "transport_cost_increase": 4,
+    "company_profit_decrease": 2,
+    "stock_price_decrease": 1,
+    "fuel_cost_increase": 2,
+    "logistics_cost_increase": 2,
+    "product_price_increase": 4,
+    "consumer_demand_decrease": 2,
+    "business_revenue_decrease": 1,
+    "oil_supply_increase": 1,
+    "oil_price_decrease": 3,
+    "inflation_decrease": 2,
+    "rupee_increase": 1,
+    "transport_cost_decrease": 2,
+    "company_profit_increase": 3,
+    "stock_price_increase": 2,
+    "fuel_cost_decrease": 1,
+    "logistics_cost_decrease": 2,
+    "product_price_decrease": 2,
+    "consumer_demand_increase": 2,
+    "business_revenue_increase": 1,
+    "patient_risk_increase": 1,
+    "hospital_load_increase": 4,
+    "staff_stress_increase": 4,
+    "treatment_quality_decrease": 2,
+    "economic_loss_increase": 1,
+    "recovery_time_increase": 1,
+    "interest_rate_increase": 1,
+    "demand_increase": 2,
+    "price_increase": 3,
+    "demand_decrease": 2,
+    "price_decrease": 3,
+    "supply_increase": 1,
+    "building_decrease": 1,
+    "casualties_increase": 1,
+    "disease_spread_increase": 1,
+    "pollution_increase": 1,
+    "respiratory_disease_increase": 2,
+    "hospital_visits_increase": 1,
+    "purchasing_power_decrease": 2,
+    "company_revenue_increase": 1,
+    "revenue_increase": 1,
+    "profit_increase": 1,
+    "fuel_price_increase": 3,
+    "transportation_cost_increase": 2,
+    "renewable_energy_increase": 1,
+    "pollution_decrease": 1,
+    "population_increase": 1,
+    "resource_demand_increase": 2,
+    "scarcity_increase": 1,
+    "food_price_increase": 1,
+    "tax_increase": 1,
+    "subsidy_increase": 1
+  },
+  "doc_count": 127,
+  "model_id": "train",
+  "description": "Trained from train.txt (TXT, 9.7 KB)"
+}

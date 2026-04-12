@@ -1,0 +1,98 @@
+{
+  "edges": {
+    "gdp_decrease": {
+      "unemployment_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 3
+      }
+    },
+    "consumer_spending_decrease": {
+      "business_revenue_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "credit_availability_decrease": {
+      "investment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "inflation_increase": {
+      "purchasing_power_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 3
+      }
+    },
+    "interest_rate_increase": {
+      "mortgage_default_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "business_revenue_decrease": {
+      "employment_levels_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "manufacturing_output_decrease": {
+      "export_revenue_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "stock_market_decrease": {
+      "consumer_confidence_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "bank_lending_decrease": {
+      "small_business_growth_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    },
+    "government_spending_decrease": {
+      "public_service_quality_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 3
+      }
+    }
+  },
+  "word_freq": {
+    "gdp_decrease": 3,
+    "unemployment_increase": 3,
+    "consumer_spending_decrease": 3,
+    "business_revenue_decrease": 6,
+    "credit_availability_decrease": 3,
+    "investment_decrease": 3,
+    "inflation_increase": 3,
+    "purchasing_power_decrease": 3,
+    "interest_rate_increase": 3,
+    "mortgage_default_increase": 3,
+    "employment_levels_decrease": 3,
+    "manufacturing_output_decrease": 3,
+    "export_revenue_decrease": 3,
+    "stock_market_decrease": 3,
+    "consumer_confidence_decrease": 3,
+    "bank_lending_decrease": 3,
+    "small_business_growth_decrease": 3,
+    "government_spending_decrease": 3,
+    "public_service_quality_decrease": 3
+  },
+  "doc_count": 30,
+  "model_id": "recession_model",
+  "description": "Recession Indicator \u2014 Economic Risk Analyzer. Trained on macroeconomic indicators."
+}
