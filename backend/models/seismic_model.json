@@ -2,97 +2,1390 @@
   "edges": {
     "tectonic_stress_increase": {
       "seismic_activity_increase": {
-        "strength": 1.0,
+        "strength": 0.7142857142857143,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "fault_slip_probability_increase": {
+        "strength": 0.2857142857142857,
+        "polarity": 1,
+        "count": 2
       }
     },
     "fault_line_pressure_increase": {
       "earthquake_risk_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "seismic_activity_increase": {
       "building_damage_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "soil_liquefaction_increase": {
       "infrastructure_damage_increase": {
-        "strength": 1.0,
+        "strength": 0.7142857142857143,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "foundation_failure_increase": {
+        "strength": 0.2857142857142857,
+        "polarity": 1,
+        "count": 2
       }
     },
     "aftershock_frequency_increase": {
       "casualty_risk_increase": {
-        "strength": 1.0,
+        "strength": 0.7142857142857143,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      },
+      "structural_stability_decrease": {
+        "strength": 0.2857142857142857,
+        "polarity": -1,
+        "count": 2
       }
     },
     "ground_motion_increase": {
       "structural_failure_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "epicenter_depth_decrease": {
       "surface_damage_increase": {
         "strength": 1.0,
         "polarity": -1,
-        "count": 3
+        "count": 5
       }
     },
     "seismic_wave_amplitude_increase": {
       "ground_displacement_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "fault_rupture_length_increase": {
       "earthquake_magnitude_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "building_age_increase": {
       "earthquake_vulnerability_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      }
+    },
+    "fault_slip_probability_increase": {
+      "earthquake_occurrence_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "earthquake_occurrence_increase": {
+      "ground_shaking_intensity_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      },
+      "landslide_risk_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      },
+      "tsunami_risk_increase": {
+        "strength": 0.3333333333333333,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "ground_shaking_intensity_increase": {
+      "building_damage_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "infrastructure_failure_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "building_damage_increase": {
+      "economic_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "infrastructure_failure_increase": {
+      "service_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "service_disruption_increase": {
+      "economic_activity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "landslide_risk_increase": {
+      "road_blockage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "road_blockage_increase": {
+      "emergency_response_delay_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "emergency_response_delay_increase": {
+      "mortality_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "tsunami_risk_increase": {
+      "coastal_flooding_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "coastal_flooding_increase": {
+      "property_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "building_vulnerability_increase": {
+      "risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "risk_increase": {
+      "casualty_count_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "wealth_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "population_density_increase": {
+      "exposure_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "exposure_risk_increase": {
+      "casualty_count_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "early_warning_systems_increase": {
+      "evacuation_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "evacuation_rate_increase": {
+      "mortality_rate_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "foundation_failure_increase": {
+      "building_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "structural_stability_decrease": {
+      "risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "sovereign_credit_risk_increase": {
+      "borrowing_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "freshwater_availability_decrease": {
+      "drought_frequency_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "air_quality_decrease": {
+      "respiratory_illness_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "fiscal_deficit_increase": {
+      "sovereign_credit_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "methane_release_increase": {
+      "warming_acceleration_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "deforestation_increase": {
+      "carbon_absorption_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "atmospheric_co_increase": {
+      "ocean_acidification_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "interest_rate_increase": {
+      "borrowing_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "coral_bleaching_increase": {
+      "marine_biodiversity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "unemployment_rate_increase": {
+      "consumer_spending_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "global_temperature_increase": {
+      "polar_ice_melt_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 20
+      },
+      "extreme_weather_frequency_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "crop_failure_risk_increase": {
+      "food_insecurity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "currency_depreciation_increase": {
+      "export_competitiveness_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "unit_labor_cost_decrease": {
+      "corporate_profit_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "productivity_increase": {
+      "unit_labor_cost_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "carbon_absorption_decrease": {
+      "atmospheric_co_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "glacier_retreat_increase": {
+      "freshwater_availability_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "real_wage_decrease": {
+      "household_consumption_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "wildfire_risk_increase": {
+      "air_quality_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "market_competition_increase": {
+      "price_pressure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "greenhouse_gas_concentration_increase": {
+      "global_temperature_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "trade_surplus_increase": {
+      "foreign_exchange_reserve_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "polar_ice_melt_increase": {
+      "sea_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "supply_chain_disruption_increase": {
+      "production_cost_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "extreme_weather_frequency_increase": {
+      "crop_failure_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "business_investment_decrease": {
+      "employment_growth_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "sea_level_increase": {
+      "coastal_flooding_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "inflation_rate_increase": {
+      "purchasing_power_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "hurricane_intensity_increase": {
+      "coastal_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "sea_surface_temperature_increase": {
+      "hurricane_intensity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "drought_frequency_increase": {
+      "wildfire_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "consumer_spending_decrease": {
+      "gdp_growth_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "solar_absorption_increase": {
+      "warming_feedback_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "production_cost_increase": {
+      "price_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "purchasing_power_decrease": {
+      "real_wage_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "price_level_increase": {
+      "demand_reduction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "borrowing_cost_increase": {
+      "business_investment_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 20
+      }
+    },
+    "corporate_profit_increase": {
+      "stock_market_valuation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "food_insecurity_increase": {
+      "malnutrition_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 20
+      }
+    },
+    "albedo_decrease": {
+      "solar_absorption_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 18
+      }
+    },
+    "government_debt_increase": {
+      "fiscal_deficit_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "price_pressure_increase": {
+      "profit_margin_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 18
+      }
+    },
+    "permafrost_thaw_increase": {
+      "methane_release_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "ocean_acidification_increase": {
+      "coral_bleaching_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "urban_heat_island_increase": {
+      "cooling_energy_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "money_supply_increase": {
+      "inflation_pressure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "export_competitiveness_increase": {
+      "trade_surplus_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "tax_rate_increase": {
+      "disposable_income_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 18
+      }
+    },
+    "cooling_energy_demand_increase": {
+      "electricity_consumption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 18
+      }
+    },
+    "morning_fatigue_increase": {
+      "coffee_consumption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "satiety_signal_delay_increase": {
+      "portion_size_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "grocery_planning_frequency_increase": {
+      "food_waste_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 14
+      }
+    },
+    "task_backlog_increase": {
+      "overwhelm_feeling_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "bedroom_temperature_increase": {
+      "sleep_restlessness_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "coffee_consumption_increase": {
+      "alertness_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "rework_time_increase": {
+      "overtime_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "background_noise_increase": {
+      "concentration_difficulty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 14
+      }
+    },
+    "list_use_increase": {
+      "task_prioritization_quality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "late_night_screen_time_increase": {
+      "sleep_onset_delay_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "alcohol_consumption_increase": {
+      "sleep_fragmentation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "muscle_recovery_rate_increase": {
+      "exercise_performance_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "water_intake_increase": {
+      "hydration_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_fragmentation_increase": {
+      "daytime_drowsiness_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "mood_irritability_increase": {
+      "social_conflict_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_onset_delay_increase": {
+      "sleep_duration_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "deadline_stress_increase": {
+      "work_quality_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "attention_interruption_increase": {
+      "task_completion_time_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "calorie_surplus_increase": {
+      "weight_gain_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "energy_crash_frequency_increase": {
+      "sweet_craving_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "work_motivation_increase": {
+      "voluntary_effort_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "poor_sleep_quality_increase": {
+      "mood_irritability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "positive_feedback_frequency_increase": {
+      "job_satisfaction_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "food_waste_decrease": {
+      "grocery_spending_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "next_meal_increase": {
+      "calorie_surplus_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "multitasking_frequency_increase": {
+      "task_error_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "cognitive_performance_decrease": {
+      "error_rate_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "break_frequency_increase": {
+      "mental_freshness_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "morning_rush_increase": {
+      "breakfast_skipping_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "added_sugar_intake_increase": {
+      "energy_crash_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "consistent_sleep_schedule_increase": {
+      "sleep_quality_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "junk_food_temptation_decrease": {
+      "healthy_eating_consistency_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "decision_fatigue_increase": {
+      "poor_choice_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "mental_freshness_increase": {
+      "afternoon_productivity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "restaurant_frequency_increase": {
+      "sodium_intake_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "protein_intake_increase": {
+      "muscle_recovery_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "exercise_motivation_increase": {
+      "physical_activity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "digestion_quality_decrease": {
+      "sleep_discomfort_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "concentration_difficulty_increase": {
+      "focus_session_length_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "processed_food_consumption_increase": {
+      "added_sugar_intake_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "deep_work_time_decrease": {
+      "complex_task_output_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "breakfast_skipping_increase": {
+      "mid_morning_hunger_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "task_prioritization_quality_increase": {
+      "important_task_completion_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "fiber_consumption_increase": {
+      "gut_health_improvement_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_duration_decrease": {
+      "morning_fatigue_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "stress_level_increase": {
+      "sleep_difficulty_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 12
+      },
+      "emotional_eating_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "remote_work_increase": {
+      "commute_time_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "job_satisfaction_increase": {
+      "employee_retention_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "task_completion_time_increase": {
+      "deadline_stress_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "vegetable_intake_increase": {
+      "fiber_consumption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "commute_time_decrease": {
+      "personal_time_availability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "clear_goal_setting_increase": {
+      "work_motivation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_debt_accumulation_increase": {
+      "cognitive_performance_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "mid_morning_hunger_increase": {
+      "snack_consumption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "meal_skipping_increase": {
+      "next_meal_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "eating_speed_increase": {
+      "satiety_signal_delay_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "meeting_frequency_increase": {
+      "deep_work_time_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "daytime_drowsiness_increase": {
+      "productivity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "sodium_intake_increase": {
+      "water_retention_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "rem_sleep_decrease": {
+      "memory_consolidation_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "meal_prep_frequency_increase": {
+      "junk_food_temptation_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "notification_frequency_increase": {
+      "attention_interruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "noise_exposure_during_sleep_increase": {
+      "sleep_interruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "workplace_clutter_increase": {
+      "cognitive_load_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "late_night_eating_increase": {
+      "digestion_quality_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "alarm_snooze_frequency_increase": {
+      "morning_rush_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "caffeine_intake_increase": {
+      "evening_sleep_difficulty_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "emotional_eating_increase": {
+      "calorie_intake_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "gut_health_improvement_increase": {
+      "immune_function_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_interruption_increase": {
+      "rem_sleep_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "overeating_frequency_decrease": {
+      "digestive_discomfort_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "task_error_rate_increase": {
+      "rework_time_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "sleep_difficulty_increase": {
+      "anxiety_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "morning_energy_level_increase": {
+      "exercise_motivation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "procrastination_frequency_increase": {
+      "task_backlog_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "hydration_level_increase": {
+      "skin_health_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "mindful_eating_practice_increase": {
+      "overeating_frequency_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "nap_frequency_increase": {
+      "nighttime_sleep_quality_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 12
+      }
+    },
+    "sleep_quality_increase": {
+      "morning_energy_level_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "cognitive_load_increase": {
+      "decision_fatigue_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
+      }
+    },
+    "overwhelm_feeling_increase": {
+      "avoidance_behavior_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 12
       }
     }
   },
   "word_freq": {
-    "tectonic_stress_increase": 3,
-    "seismic_activity_increase": 6,
-    "fault_line_pressure_increase": 3,
-    "earthquake_risk_increase": 3,
-    "building_damage_increase": 3,
-    "soil_liquefaction_increase": 3,
-    "infrastructure_damage_increase": 3,
-    "aftershock_frequency_increase": 3,
-    "casualty_risk_increase": 3,
-    "ground_motion_increase": 3,
-    "structural_failure_increase": 3,
-    "epicenter_depth_decrease": 3,
-    "surface_damage_increase": 3,
-    "seismic_wave_amplitude_increase": 3,
-    "ground_displacement_increase": 3,
-    "fault_rupture_length_increase": 3,
-    "earthquake_magnitude_increase": 3,
-    "building_age_increase": 3,
-    "earthquake_vulnerability_increase": 3
+    "tectonic_stress_increase": 7,
+    "seismic_activity_increase": 10,
+    "fault_line_pressure_increase": 5,
+    "earthquake_risk_increase": 5,
+    "building_damage_increase": 11,
+    "soil_liquefaction_increase": 7,
+    "infrastructure_damage_increase": 5,
+    "aftershock_frequency_increase": 7,
+    "casualty_risk_increase": 5,
+    "ground_motion_increase": 5,
+    "structural_failure_increase": 5,
+    "epicenter_depth_decrease": 5,
+    "surface_damage_increase": 5,
+    "seismic_wave_amplitude_increase": 5,
+    "ground_displacement_increase": 5,
+    "fault_rupture_length_increase": 5,
+    "earthquake_magnitude_increase": 5,
+    "building_age_increase": 5,
+    "earthquake_vulnerability_increase": 5,
+    "fault_slip_probability_increase": 4,
+    "earthquake_occurrence_increase": 8,
+    "ground_shaking_intensity_increase": 6,
+    "economic_loss_increase": 2,
+    "infrastructure_failure_increase": 4,
+    "service_disruption_increase": 4,
+    "economic_activity_decrease": 2,
+    "landslide_risk_increase": 4,
+    "road_blockage_increase": 4,
+    "emergency_response_delay_increase": 4,
+    "mortality_rate_increase": 2,
+    "tsunami_risk_increase": 4,
+    "coastal_flooding_increase": 24,
+    "property_damage_increase": 2,
+    "building_vulnerability_increase": 2,
+    "risk_increase": 8,
+    "casualty_count_increase": 4,
+    "population_density_increase": 2,
+    "exposure_risk_increase": 4,
+    "early_warning_systems_increase": 2,
+    "evacuation_rate_increase": 4,
+    "mortality_rate_decrease": 2,
+    "foundation_failure_increase": 4,
+    "structural_stability_decrease": 4,
+    "wealth_increase": 2,
+    "sovereign_credit_risk_increase": 40,
+    "borrowing_cost_increase": 60,
+    "freshwater_availability_decrease": 40,
+    "drought_frequency_increase": 40,
+    "air_quality_decrease": 40,
+    "respiratory_illness_increase": 20,
+    "fiscal_deficit_increase": 38,
+    "methane_release_increase": 38,
+    "warming_acceleration_increase": 20,
+    "deforestation_increase": 20,
+    "carbon_absorption_decrease": 40,
+    "atmospheric_co_increase": 40,
+    "ocean_acidification_increase": 38,
+    "interest_rate_increase": 20,
+    "coral_bleaching_increase": 38,
+    "marine_biodiversity_decrease": 20,
+    "unemployment_rate_increase": 20,
+    "consumer_spending_decrease": 40,
+    "global_temperature_increase": 60,
+    "polar_ice_melt_increase": 40,
+    "crop_failure_risk_increase": 40,
+    "food_insecurity_increase": 40,
+    "currency_depreciation_increase": 20,
+    "export_competitiveness_increase": 38,
+    "unit_labor_cost_decrease": 40,
+    "corporate_profit_increase": 40,
+    "productivity_increase": 20,
+    "glacier_retreat_increase": 20,
+    "real_wage_decrease": 40,
+    "household_consumption_decrease": 20,
+    "extreme_weather_frequency_increase": 40,
+    "wildfire_risk_increase": 40,
+    "market_competition_increase": 20,
+    "price_pressure_increase": 38,
+    "greenhouse_gas_concentration_increase": 20,
+    "trade_surplus_increase": 38,
+    "foreign_exchange_reserve_increase": 20,
+    "sea_level_increase": 40,
+    "supply_chain_disruption_increase": 20,
+    "production_cost_increase": 40,
+    "business_investment_decrease": 40,
+    "employment_growth_decrease": 20,
+    "inflation_rate_increase": 20,
+    "purchasing_power_decrease": 40,
+    "hurricane_intensity_increase": 40,
+    "coastal_damage_increase": 20,
+    "sea_surface_temperature_increase": 20,
+    "gdp_growth_decrease": 20,
+    "solar_absorption_increase": 38,
+    "warming_feedback_increase": 20,
+    "price_level_increase": 40,
+    "demand_reduction_increase": 20,
+    "stock_market_valuation_increase": 20,
+    "malnutrition_rate_increase": 20,
+    "albedo_decrease": 18,
+    "government_debt_increase": 18,
+    "profit_margin_decrease": 18,
+    "permafrost_thaw_increase": 18,
+    "urban_heat_island_increase": 18,
+    "cooling_energy_demand_increase": 36,
+    "money_supply_increase": 18,
+    "inflation_pressure_increase": 18,
+    "tax_rate_increase": 18,
+    "disposable_income_decrease": 18,
+    "electricity_consumption_increase": 18,
+    "morning_fatigue_increase": 26,
+    "coffee_consumption_increase": 28,
+    "satiety_signal_delay_increase": 26,
+    "portion_size_increase": 14,
+    "grocery_planning_frequency_increase": 14,
+    "food_waste_decrease": 26,
+    "task_backlog_increase": 26,
+    "overwhelm_feeling_increase": 26,
+    "bedroom_temperature_increase": 14,
+    "sleep_restlessness_increase": 14,
+    "alertness_increase": 14,
+    "rework_time_increase": 26,
+    "overtime_frequency_increase": 14,
+    "background_noise_increase": 14,
+    "concentration_difficulty_increase": 26,
+    "list_use_increase": 12,
+    "task_prioritization_quality_increase": 24,
+    "late_night_screen_time_increase": 12,
+    "sleep_onset_delay_increase": 24,
+    "alcohol_consumption_increase": 12,
+    "sleep_fragmentation_increase": 24,
+    "muscle_recovery_rate_increase": 24,
+    "exercise_performance_increase": 12,
+    "water_intake_increase": 12,
+    "hydration_level_increase": 24,
+    "daytime_drowsiness_increase": 24,
+    "mood_irritability_increase": 24,
+    "social_conflict_increase": 12,
+    "sleep_duration_decrease": 24,
+    "deadline_stress_increase": 24,
+    "work_quality_decrease": 12,
+    "attention_interruption_increase": 24,
+    "task_completion_time_increase": 24,
+    "calorie_surplus_increase": 24,
+    "weight_gain_risk_increase": 12,
+    "energy_crash_frequency_increase": 24,
+    "sweet_craving_increase": 12,
+    "work_motivation_increase": 24,
+    "voluntary_effort_increase": 12,
+    "poor_sleep_quality_increase": 12,
+    "positive_feedback_frequency_increase": 12,
+    "job_satisfaction_increase": 24,
+    "grocery_spending_decrease": 12,
+    "next_meal_increase": 24,
+    "multitasking_frequency_increase": 12,
+    "task_error_rate_increase": 24,
+    "cognitive_performance_decrease": 24,
+    "error_rate_increase": 12,
+    "break_frequency_increase": 12,
+    "mental_freshness_increase": 24,
+    "morning_rush_increase": 24,
+    "breakfast_skipping_increase": 24,
+    "added_sugar_intake_increase": 24,
+    "consistent_sleep_schedule_increase": 12,
+    "sleep_quality_increase": 24,
+    "junk_food_temptation_decrease": 24,
+    "healthy_eating_consistency_increase": 12,
+    "decision_fatigue_increase": 24,
+    "poor_choice_frequency_increase": 12,
+    "afternoon_productivity_increase": 12,
+    "restaurant_frequency_increase": 12,
+    "sodium_intake_increase": 24,
+    "protein_intake_increase": 12,
+    "exercise_motivation_increase": 24,
+    "physical_activity_increase": 12,
+    "digestion_quality_decrease": 24,
+    "sleep_discomfort_increase": 12,
+    "focus_session_length_decrease": 12,
+    "processed_food_consumption_increase": 12,
+    "deep_work_time_decrease": 24,
+    "complex_task_output_decrease": 12,
+    "mid_morning_hunger_increase": 24,
+    "important_task_completion_increase": 12,
+    "fiber_consumption_increase": 24,
+    "gut_health_improvement_increase": 24,
+    "stress_level_increase": 24,
+    "sleep_difficulty_increase": 24,
+    "remote_work_increase": 12,
+    "commute_time_decrease": 24,
+    "employee_retention_increase": 12,
+    "vegetable_intake_increase": 12,
+    "personal_time_availability_increase": 12,
+    "clear_goal_setting_increase": 12,
+    "sleep_debt_accumulation_increase": 12,
+    "snack_consumption_increase": 12,
+    "emotional_eating_increase": 24,
+    "meal_skipping_increase": 12,
+    "eating_speed_increase": 12,
+    "meeting_frequency_increase": 12,
+    "productivity_decrease": 12,
+    "water_retention_increase": 12,
+    "rem_sleep_decrease": 24,
+    "memory_consolidation_decrease": 12,
+    "meal_prep_frequency_increase": 12,
+    "notification_frequency_increase": 12,
+    "noise_exposure_during_sleep_increase": 12,
+    "sleep_interruption_increase": 24,
+    "workplace_clutter_increase": 12,
+    "cognitive_load_increase": 24,
+    "late_night_eating_increase": 12,
+    "alarm_snooze_frequency_increase": 12,
+    "caffeine_intake_increase": 12,
+    "evening_sleep_difficulty_increase": 12,
+    "calorie_intake_increase": 12,
+    "immune_function_increase": 12,
+    "overeating_frequency_decrease": 24,
+    "digestive_discomfort_decrease": 12,
+    "anxiety_level_increase": 12,
+    "morning_energy_level_increase": 24,
+    "procrastination_frequency_increase": 12,
+    "skin_health_increase": 12,
+    "mindful_eating_practice_increase": 12,
+    "nap_frequency_increase": 12,
+    "nighttime_sleep_quality_decrease": 12,
+    "avoidance_behavior_increase": 12
   },
-  "doc_count": 30,
+  "doc_count": 2104,
   "model_id": "seismic_model",
   "description": "Seismic Risk \u2014 Earthquake Predictor. Trained on fault-line and magnitude data."
 }
