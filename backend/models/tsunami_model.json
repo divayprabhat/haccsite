@@ -4,95 +4,795 @@
       "tsunami_risk_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "ocean_floor_displacement_increase": {
       "wave_height_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "wave_height_increase": {
       "coastal_flooding_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "early_warning_decrease": {
       "evacuation_time_decrease": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "seabed_landslide_increase": {
       "tsunami_generation_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "coastal_elevation_decrease": {
       "inundation_depth_increase": {
         "strength": 1.0,
         "polarity": -1,
-        "count": 3
+        "count": 5
       }
     },
     "wave_propagation_speed_increase": {
       "warning_time_decrease": {
         "strength": 1.0,
         "polarity": -1,
-        "count": 3
+        "count": 5
       }
     },
     "submarine_volcano_eruption_increase": {
       "ocean_disturbance_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "offshore_fault_activity_increase": {
       "wave_energy_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
       }
     },
     "harbor_resonance_increase": {
       "wave_amplification_increase": {
         "strength": 1.0,
         "polarity": 1,
-        "count": 3
+        "count": 5
+      }
+    },
+    "heavy_rainfall_increase": {
+      "river_water_level_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "soil_saturation_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "river_water_level_increase": {
+      "flood_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "flood_risk_increase": {
+      "residential_area_inundation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "residential_area_inundation_increase": {
+      "property_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "property_damage_increase": {
+      "insurance_claim_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "insurance_claim_increase": {
+      "insurance_premium_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "soil_saturation_increase": {
+      "surface_runoff_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "surface_runoff_increase": {
+      "stormwater_volume_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "flash_flood_risk_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "stormwater_volume_increase": {
+      "drainage_system_overload_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "drainage_system_overload_increase": {
+      "urban_flood_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "urban_flood_risk_increase": {
+      "road_submersion_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "road_submersion_increase": {
+      "traffic_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "traffic_disruption_increase": {
+      "economic_productivity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "deforestation_increase": {
+      "vegetation_cover_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "vegetation_cover_decrease": {
+      "rainfall_absorption_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "rainfall_absorption_decrease": {
+      "surface_runoff_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "glacier_melt_rate_increase": {
+      "river_discharge_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "river_discharge_increase": {
+      "downstream_flood_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "downstream_flood_risk_increase": {
+      "agricultural_land_flooding_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "agricultural_land_flooding_increase": {
+      "crop_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "crop_loss_increase": {
+      "food_supply_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "food_supply_decrease": {
+      "food_price_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "sea_level_increase": {
+      "coastal_flood_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "coastal_flood_frequency_increase": {
+      "coastal_erosion_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "coastal_erosion_increase": {
+      "land_area_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "land_area_decrease": {
+      "population_displacement_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "population_displacement_increase": {
+      "refugee_population_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "refugee_population_increase": {
+      "humanitarian_aid_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "urban_impervious_surface_increase": {
+      "stormwater_absorption_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "stormwater_absorption_decrease": {
+      "surface_runoff_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "flash_flood_risk_increase": {
+      "human_casualty_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "dam_structural_failure_increase": {
+      "downstream_flood_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "downstream_flood_increase": {
+      "downstream_community_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "downstream_community_damage_increase": {
+      "economic_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "economic_loss_increase": {
+      "gdp_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "snowmelt_rate_increase": {
+      "river_flow_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "river_flow_increase": {
+      "floodplain_inundation_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "floodplain_inundation_increase": {
+      "wetland_ecosystem_disruption_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "wetland_ecosystem_disruption_increase": {
+      "biodiversity_loss_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "flooding_increase": {
+      "sewage_system_overflow_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "electricity_infrastructure_damage_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "sewage_system_overflow_increase": {
+      "waterborne_disease_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "waterborne_disease_risk_increase": {
+      "public_health_burden_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "public_health_burden_increase": {
+      "healthcare_expenditure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "electricity_infrastructure_damage_increase": {
+      "power_outage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "power_outage_increase": {
+      "industrial_output_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "industrial_output_decrease": {
+      "employment_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "employment_decrease": {
+      "household_income_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "household_income_decrease": {
+      "poverty_rate_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "flood_event_frequency_increase": {
+      "soil_nutrient_loss_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      },
+      "disaster_recovery_cost_increase": {
+        "strength": 0.5,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "soil_nutrient_loss_increase": {
+      "agricultural_yield_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "agricultural_yield_decrease": {
+      "farmer_income_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "farmer_income_decrease": {
+      "rural_poverty_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "rural_poverty_increase": {
+      "urban_migration_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "urban_migration_increase": {
+      "urban_population_density_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "urban_population_density_increase": {
+      "urban_flood_vulnerability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "levee_maintenance_decrease": {
+      "levee_failure_risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "levee_failure_risk_increase": {
+      "protected_area_flood_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "protected_area_flood_risk_increase": {
+      "emergency_response_demand_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "emergency_response_demand_increase": {
+      "government_disaster_expenditure_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "government_disaster_expenditure_increase": {
+      "public_debt_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "climate_temperature_increase": {
+      "evaporation_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "evaporation_rate_increase": {
+      "atmospheric_moisture_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "atmospheric_moisture_increase": {
+      "extreme_rainfall_event_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "extreme_rainfall_event_frequency_increase": {
+      "flood_event_frequency_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "disaster_recovery_cost_increase": {
+      "national_budget_deficit_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "wetland_area_decrease": {
+      "natural_flood_buffer_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "natural_flood_buffer_decrease": {
+      "downstream_flood_risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "early_evacuation_rate_increase": {
+      "flood_related_casualty_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "flood_related_casualty_decrease": {
+      "post_disaster_social_cost_decrease": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "green_infrastructure_investment_increase": {
+      "stormwater_retention_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "stormwater_retention_increase": {
+      "urban_flood_risk_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "urban_flood_risk_decrease": {
+      "property_value_stability_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "floodplain_construction_increase": {
+      "flood_exposed_population_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "flood_exposed_population_increase": {
+      "flood_disaster_impact_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "flood_disaster_impact_increase": {
+      "post_flood_displacement_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "post_flood_displacement_increase": {
+      "social_instability_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "social_instability_increase": {
+      "economic_investment_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "river_channel_sedimentation_increase": {
+      "river_water_carrying_capacity_decrease": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "river_water_carrying_capacity_decrease": {
+      "flood_overflow_risk_increase": {
+        "strength": 1.0,
+        "polarity": -1,
+        "count": 2
+      }
+    },
+    "flood_overflow_risk_increase": {
+      "agricultural_damage_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "agricultural_damage_increase": {
+      "food_insecurity_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "food_insecurity_increase": {
+      "malnutrition_rate_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
+      }
+    },
+    "malnutrition_rate_increase": {
+      "child_mortality_risk_increase": {
+        "strength": 1.0,
+        "polarity": 1,
+        "count": 2
       }
     }
   },
   "word_freq": {
-    "undersea_earthquake_increase": 3,
-    "tsunami_risk_increase": 3,
-    "ocean_floor_displacement_increase": 3,
-    "wave_height_increase": 6,
-    "coastal_flooding_increase": 3,
-    "early_warning_decrease": 3,
-    "evacuation_time_decrease": 3,
-    "seabed_landslide_increase": 3,
-    "tsunami_generation_increase": 3,
-    "coastal_elevation_decrease": 3,
-    "inundation_depth_increase": 3,
-    "wave_propagation_speed_increase": 3,
-    "warning_time_decrease": 3,
-    "submarine_volcano_eruption_increase": 3,
-    "ocean_disturbance_increase": 3,
-    "offshore_fault_activity_increase": 3,
-    "wave_energy_increase": 3,
-    "harbor_resonance_increase": 3,
-    "wave_amplification_increase": 3
+    "undersea_earthquake_increase": 5,
+    "tsunami_risk_increase": 5,
+    "ocean_floor_displacement_increase": 5,
+    "wave_height_increase": 10,
+    "coastal_flooding_increase": 5,
+    "early_warning_decrease": 5,
+    "evacuation_time_decrease": 5,
+    "seabed_landslide_increase": 5,
+    "tsunami_generation_increase": 5,
+    "coastal_elevation_decrease": 5,
+    "inundation_depth_increase": 5,
+    "wave_propagation_speed_increase": 5,
+    "warning_time_decrease": 5,
+    "submarine_volcano_eruption_increase": 5,
+    "ocean_disturbance_increase": 5,
+    "offshore_fault_activity_increase": 5,
+    "wave_energy_increase": 5,
+    "harbor_resonance_increase": 5,
+    "wave_amplification_increase": 5,
+    "heavy_rainfall_increase": 4,
+    "river_water_level_increase": 4,
+    "flood_risk_increase": 4,
+    "residential_area_inundation_increase": 4,
+    "property_damage_increase": 4,
+    "insurance_claim_increase": 4,
+    "insurance_premium_increase": 2,
+    "soil_saturation_increase": 4,
+    "surface_runoff_increase": 10,
+    "stormwater_volume_increase": 4,
+    "drainage_system_overload_increase": 4,
+    "urban_flood_risk_increase": 4,
+    "road_submersion_increase": 4,
+    "traffic_disruption_increase": 4,
+    "economic_productivity_decrease": 2,
+    "deforestation_increase": 2,
+    "vegetation_cover_decrease": 4,
+    "rainfall_absorption_decrease": 4,
+    "glacier_melt_rate_increase": 2,
+    "river_discharge_increase": 4,
+    "downstream_flood_risk_increase": 6,
+    "agricultural_land_flooding_increase": 4,
+    "crop_loss_increase": 4,
+    "food_supply_decrease": 4,
+    "food_price_increase": 2,
+    "sea_level_increase": 2,
+    "coastal_flood_frequency_increase": 4,
+    "coastal_erosion_increase": 4,
+    "land_area_decrease": 4,
+    "population_displacement_increase": 4,
+    "refugee_population_increase": 4,
+    "humanitarian_aid_demand_increase": 2,
+    "urban_impervious_surface_increase": 2,
+    "stormwater_absorption_decrease": 4,
+    "flash_flood_risk_increase": 4,
+    "human_casualty_risk_increase": 2,
+    "dam_structural_failure_increase": 2,
+    "downstream_flood_increase": 4,
+    "downstream_community_damage_increase": 4,
+    "economic_loss_increase": 4,
+    "gdp_decrease": 2,
+    "snowmelt_rate_increase": 2,
+    "river_flow_increase": 4,
+    "floodplain_inundation_increase": 4,
+    "wetland_ecosystem_disruption_increase": 4,
+    "biodiversity_loss_increase": 2,
+    "flooding_increase": 4,
+    "sewage_system_overflow_increase": 4,
+    "waterborne_disease_risk_increase": 4,
+    "public_health_burden_increase": 4,
+    "healthcare_expenditure_increase": 2,
+    "electricity_infrastructure_damage_increase": 4,
+    "power_outage_increase": 4,
+    "industrial_output_decrease": 4,
+    "employment_decrease": 4,
+    "household_income_decrease": 4,
+    "poverty_rate_increase": 2,
+    "flood_event_frequency_increase": 6,
+    "soil_nutrient_loss_increase": 4,
+    "agricultural_yield_decrease": 4,
+    "farmer_income_decrease": 4,
+    "rural_poverty_increase": 4,
+    "urban_migration_increase": 4,
+    "urban_population_density_increase": 4,
+    "urban_flood_vulnerability_increase": 2,
+    "levee_maintenance_decrease": 2,
+    "levee_failure_risk_increase": 4,
+    "protected_area_flood_risk_increase": 4,
+    "emergency_response_demand_increase": 4,
+    "government_disaster_expenditure_increase": 4,
+    "public_debt_increase": 2,
+    "climate_temperature_increase": 2,
+    "evaporation_rate_increase": 4,
+    "atmospheric_moisture_increase": 4,
+    "extreme_rainfall_event_frequency_increase": 4,
+    "disaster_recovery_cost_increase": 4,
+    "national_budget_deficit_increase": 2,
+    "wetland_area_decrease": 2,
+    "natural_flood_buffer_decrease": 4,
+    "early_evacuation_rate_increase": 2,
+    "flood_related_casualty_decrease": 4,
+    "post_disaster_social_cost_decrease": 2,
+    "green_infrastructure_investment_increase": 2,
+    "stormwater_retention_increase": 4,
+    "urban_flood_risk_decrease": 4,
+    "property_value_stability_increase": 2,
+    "floodplain_construction_increase": 2,
+    "flood_exposed_population_increase": 4,
+    "flood_disaster_impact_increase": 4,
+    "post_flood_displacement_increase": 4,
+    "social_instability_increase": 4,
+    "economic_investment_decrease": 2,
+    "river_channel_sedimentation_increase": 2,
+    "river_water_carrying_capacity_decrease": 4,
+    "flood_overflow_risk_increase": 4,
+    "agricultural_damage_increase": 4,
+    "food_insecurity_increase": 4,
+    "malnutrition_rate_increase": 4,
+    "child_mortality_risk_increase": 2
   },
-  "doc_count": 30,
+  "doc_count": 52,
   "model_id": "tsunami_model",
   "description": "Tsunami Warning \u2014 Ocean Wave Propagation. Trained on seismic and oceanic data."
 }
