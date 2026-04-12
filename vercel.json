@@ -2,6 +2,7 @@
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
-    { "source": "/_/backend/(.*)", "destination": "/main.py" }
+    { "source": "/api/(.*)", "destination": "/main.py/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
